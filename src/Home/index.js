@@ -7,7 +7,7 @@ function Myapp()
             <h1>Hello there</h1>
             <h1>Second</h1>
             <h2>hi</h2>
-            //gjk
+           
         </div>
     )
 }
