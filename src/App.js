@@ -4,8 +4,7 @@ import Index from './Home/index'
 function App() {
   return (
     <div>
-    <button>hai</button>
-    <h1>hai</h1>
+        <h1>Hello hi</h1>
     </div>
   );
 }
