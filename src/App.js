@@ -1,11 +1,13 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-
+// import Home from './Routers/home'
+import Index from './Home/index'
 function App() {
   return (
+ 
     <div className="App">
+
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -18,6 +20,11 @@ function App() {
           Learn React
         </a>
       </header>
+
+      <h1>Welcome to Library</h1>
+      <h2>Welcome to Ratneswar Team</h2>
+      <button>Click</button>
+
     </div>
   );
 }
