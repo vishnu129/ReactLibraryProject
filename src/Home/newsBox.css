@@ -1,0 +1,22 @@
+.wrapper{
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.newsImage{
+  background-color: greenyellow;
+  float: left;
+  height: 300px;
+}
+.newsContent{
+background-color: honeydew;
+float: right;
+height: 300px;
+padding-left: 10px;
+}
+
+.imageArea{
+  height: 300px;
+  align-content: center;
+  width: 100%;
+}
