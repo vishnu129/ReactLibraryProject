@@ -49,7 +49,7 @@ class NewsBox extends Component {
                         <div className="newsContent">
                             <h2>{list[0].heading}</h2>
                             <h3>{list[0].summary}</h3>
-                            <h3 className="seemore">see more..</h3>
+                            <h3 className="seemore">see more...</h3>
                         </div>
                     </div>
                 </div>
