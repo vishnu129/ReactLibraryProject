@@ -1,0 +1,132 @@
+.header {
+    position: absolute;
+  width: 1498px;
+  height: 2320px;
+  /* left: -4px; */
+  max-width: 100%;
+  max-height: 100%;
+  top: 0px;
+  background-color: #d9f9c9;
+  }
+ 
+  .body {
+    position: absolute;
+    object-fit: cover;
+  width: 1447px;
+  height: 1210px;
+  /* left: opx; */
+  top: 225px;
+  max-width: 99%;
+  max-height: 99%;
+  
+  /* background: url("https://images.fineartamerica.com/images-medium-large-5/london-skyline-watercolor-1-irina-march.jpg"); */
+  mix-blend-mode: darken;
+  backdrop-filter: blur(4px);
+  /* Note: backdrop-filter has minimal browser support */
+  background-color:#bce79a;
+  opacity:100%;
+  }
+  
+ 
+  .font {
+    position: absolute;
+width: 304.75px;
+height: 96.87px;
+left: 0px;
+top: 43px;
+ 
+font-family: IM FELL English SC;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 61px;
+text-align: center;
+ 
+color: #000000;
+ 
+}
+ 
+.donateicon {
+    position: absolute;
+    width: 285px;
+height: 558px;
+left: 987px;
+top: 28px;
+color: #000000;
+}
+ 
+.donation {
+    position: absolute;
+width: 185px;
+height: 33px;
+left: 977px;
+top: 33px;
+ 
+font-family: IM FELL English;
+font-style: normal;
+font-weight: normal;
+font-size: 26px;
+line-height: 36px;
+text-align: center;
+ 
+color: #000000;
+ 
+}
+ 
+.log {
+ 
+    position: absolute;
+    width: 185px;
+    height: 33px;
+    left: 1077px;
+    top: 33px;
+    
+    font-family: IM FELL English;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 36px;
+    text-align: center;
+    
+    color: #000000;
+}
+ 
+.quote {
+    position: absolute;
+    width: 304.75px;
+height: 196.87px;
+left: 287px;
+top: 223px;
+ 
+    font-family: IM FELL English;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 36px;
+text-align: center;
+ 
+color: #000000;
+    
+}
+ 
+.news {
+    max-height: 100%;
+    max-width: 100%;
+    position: absolute;
+width: 1440px;
+height: 61px;
+left: -7px;
+top: 1049px;
+ 
+font-family: IM FELL English SC;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 61px;
+/* identical to box height */
+ 
+text-align: center;
+ 
+color: #000000;
+ 
+}
