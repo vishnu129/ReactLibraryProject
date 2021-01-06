@@ -4,18 +4,21 @@ import { IconButton } from '@material-ui/core';
 import AccountBalanceIcon from '@material-ui/icons/AccountBalance';
 import './Header.css';
 import SearchIcon from '@material-ui/icons/Search';
-// import data from "./home.json";
-// import Slider from "react-slick";
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
+import ReadOutlined from '@ant-design/icons';
+
+
  
 function Header() {
-  const { Header,Content } = Layout;
+  const { Header } = Layout;
   return (
     <div>
       <Layout>
         <Header className="background">
-        <div className="font">THE <br/>Library</div>
+        <div className="font">The  <br/>Library</div>
+        <div className="libraryicon"></div>
+        <IconButton>
+        <ReadOutlined />
+        </IconButton>
             <div className="donation">Donate</div>
             <div className="log">Log-In</div>
             <div className="donateicon">
@@ -30,9 +33,10 @@ function Header() {
                 </IconButton>
             </div>
         </Header>
-        <Content>
+        {/* <div>
+          <Content/>
+        </div> */}
         
-        </Content>
         
       </Layout>
     </div>

@@ -18,9 +18,12 @@ export class Content extends Component {
     getData() {
         return data.Content.kidsbooks;
     }
+   
+      
     render() {
         const { Content } = Layout;
         const list = this.getData();
+       
 
         var settings = {
             dots: true,
@@ -59,7 +62,7 @@ export class Content extends Component {
         return (
             <div>
                 <Layout>
-                    <Content>
+                    <Content className="content">
                         <h2 className="kids">Kids</h2>
                         <h4 className="see"> See All</h4>
                         <Slider {...settings} className="Slider">
@@ -96,6 +99,50 @@ export class Content extends Component {
                             <div className="kidsBooks">
                                 <img className="imageArea"
                                     src={list[6]["image-url"]} alt="read" />
+                            </div>
+
+
+                        </Slider>
+
+
+
+
+                        <h2 className="thrillers">Thrillers</h2>
+                        <h4 className="see1"> See All</h4>
+                        <Slider {...settings} className="Slider1">
+                            <div className="Thrillers">
+                                <img className="imageArea"
+                                    src={list[7]["image"]} alt="read" />
+                            </div>
+
+                            <div className="Thrillers">
+                                <img className="imageArea"
+                                    src={list[8]["image"]} alt="read" />
+                            </div>
+
+                            <div className="Thrillers">
+                                <img className="imageArea"
+                                    src={list[9]["image"]} alt="read" />
+                            </div>
+
+                            <div className="Thrillers">
+                                <img className="imageArea"
+                                    src={list[10]["image"]} alt="read" />
+                            </div>
+
+                            <div className="Thrillers">
+                                <img className="imageArea"
+                                    src={list[11]["image"]} alt="read" />
+                            </div>
+
+                            <div className="Thrillers">
+                                <img className="imageArea"
+                                    src={list[12]["image"]} alt="read" />
+                            </div>
+
+                            <div className="Thrillers">
+                                <img className="imageArea"
+                                    src={list[13]["image"]} alt="read" />
                             </div>
 
 
