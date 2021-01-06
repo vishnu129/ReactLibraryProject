@@ -1,34 +1,4 @@
-.header {
-    position: absolute;
-  width: 1498px;
-  height: 2320px;
-  /* left: -4px; */
-  max-width: 100%;
-  max-height: 100%;
-  top: 0px;
-  background-color: #d9f9c9;
-  }
- 
-  .body {
-    position: absolute;
-    object-fit: cover;
-  width: 1447px;
-  height: 1210px;
-  /* left: opx; */
-  top: 225px;
-  max-width: 99%;
-  max-height: 99%;
-  
-  /* background: url("https://images.fineartamerica.com/images-medium-large-5/london-skyline-watercolor-1-irina-march.jpg"); */
-  mix-blend-mode: darken;
-  backdrop-filter: blur(4px);
-  /* Note: backdrop-filter has minimal browser support */
-  background-color:#bce79a;
-  opacity:100%;
-  }
-  
- 
-  .font {
+.font {
     position: absolute;
 width: 304.75px;
 height: 96.87px;
@@ -38,12 +8,25 @@ top: 43px;
 font-family: IM FELL English SC;
 font-style: normal;
 font-weight: normal;
-font-size: 48px;
+font-size: 40px;
 line-height: 61px;
 text-align: center;
  
 color: #000000;
+/* background-color: aqua; */
  
+}
+ 
+.background {
+     position: fixed;
+  width: 1498px;
+  height: 2320px;
+  /* left: -4px; */
+  max-width: 100%;
+  max-height: 30%;
+  top: 0px;
+  background-color: #c9f9f2;
+   
 }
  
 .donateicon {
@@ -68,10 +51,13 @@ font-weight: normal;
 font-size: 26px;
 line-height: 36px;
 text-align: center;
- 
+ cursor: pointer;
 color: #000000;
  
 }
+.donation :hover {
+    color: #f80000;
+    }
  
 .log {
  
@@ -87,46 +73,28 @@ color: #000000;
     font-size: 26px;
     line-height: 36px;
     text-align: center;
-    
+    cursor: pointer;
     color: #000000;
 }
+
+.log:hover {
+    color: #f80000;
+    }
+   
  
-.quote {
-    position: absolute;
-    width: 304.75px;
-height: 196.87px;
-left: 287px;
-top: 223px;
- 
-    font-family: IM FELL English;
-font-style: normal;
-font-weight: bold;
-font-size: 26px;
-line-height: 36px;
-text-align: center;
- 
-color: #000000;
-    
+.ujwala {
+    position: relative;
+    width: 185px;
+    height: 20px;
+    left: 997px;
+    top:85px;
 }
  
-.news {
-    max-height: 100%;
-    max-width: 100%;
-    position: absolute;
-width: 1440px;
-height: 61px;
-left: -7px;
-top: 1049px;
- 
-font-family: IM FELL English SC;
-font-style: normal;
-font-weight: normal;
-font-size: 48px;
-line-height: 61px;
-/* identical to box height */
- 
-text-align: center;
- 
-color: #000000;
- 
+.searchicon {
+    position: relative;
+    width: 285px;
+    height: 560px;
+    left: 1185px;
+    top:49px;
+    color:blue;
 }

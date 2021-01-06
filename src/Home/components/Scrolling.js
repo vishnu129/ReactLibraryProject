@@ -58,6 +58,7 @@ export default class Responsive extends Component {
      
       return (
         <div>
+        <h2>Kids</h2>
           <Slider {...settings}>
           <div className="kidsBooks">                           
            <img className="imageArea" 
