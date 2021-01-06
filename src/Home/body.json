@@ -1,0 +1,35 @@
+{
+    "Content": {
+        "kidsbooks": [
+            {
+                "link": "",
+                "image-url":"https://static.onecms.io/wp-content/uploads/sites/6/2012/02/charlottes-web-cover_240.jpg"
+            },
+            {
+                "link": "",
+                "image-url": "https://1.bp.blogspot.com/-TQH4W-WA330/VlTO3NCkHAI/AAAAAAAAAV8/E7f3W8BV3rQ/s1600/Screen%2BShot%2B2015-11-24%2Bat%2B12.55.24%2BPM.png"
+            },
+               
+            {
+                "link": "",
+                "image-url": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/main-1533070979.jpg"
+         },
+            {
+                "link": "",
+                "image-url": "https://www.nationwidebooks.co.nz/application/modules/images/assets/upload/9781786281814.jpg"
+            },
+            {
+                "link": "",
+                "image-url": "https://images-na.ssl-images-amazon.com/images/I/81kcxxd0RvL.jpg"
+            },
+            {
+                "link": "",
+                "image-url": "https://upload.wikimedia.org/wikipedia/en/1/1d/Thejunglebook_movieposter.jpg"
+            },
+            {
+                "link": "",
+                "image-url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1507963312l/33574273._SX318_.jpg"
+            }
+        ]
+    }
+}
