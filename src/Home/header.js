@@ -4,8 +4,8 @@ import { IconButton } from '@material-ui/core';
 import AccountBalanceIcon from '@material-ui/icons/AccountBalance';
 import './style.css';
 import SearchIcon from '@material-ui/icons/Search';
-// import data from "./home.json";
-// import Slider from "react-slick";
+import data from "./home.json";
+import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
  

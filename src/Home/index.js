@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from './footer';
  import Header from './header';
+ import News from './newsBox';
 import SuggestionBox from './suggestionBox';
 // import Deleteit from './deleteIt';
 import data from './body.json'
@@ -15,6 +16,7 @@ function index(){
         {/* <Header />
        <SuggestionBox title="kids" data= {kids}/><br></br><br></br> */}
        <Header />
+       <News/>
        <SuggestionBox title="kids" data= {kids}/><br></br><br></br>
         <Footer />
      
