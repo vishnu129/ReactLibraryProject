@@ -12,6 +12,7 @@ function getData() {
   }
 function index(){
     const kids=getData().kidsbooks;
+    
     // const thrillers = getData().Thrillers;
     return(
         <div>
