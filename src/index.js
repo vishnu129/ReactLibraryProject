@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8de814c78383d1cf1c08174e0e583e3394c57a58
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <NewsBox />
+  ,
   document.getElementById('root')
 );
 
