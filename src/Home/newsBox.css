@@ -4,7 +4,11 @@
 }
 
 .newsImage{
+<<<<<<< HEAD
   background-color: greenyellow;
+=======
+  background-color: white;
+>>>>>>> 354780f55865b70b7a3f6a6730311255072e0d02
   float: left;
   height: 300px;
 }
@@ -25,4 +29,8 @@ padding-left: 10px;
   float: right;
   padding-right: 10px;
   color: blue;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 354780f55865b70b7a3f6a6730311255072e0d02

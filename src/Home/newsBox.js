@@ -9,11 +9,15 @@ import "./newsBox.css";
 class NewsBox extends Component {
     constructor() {
         super();
+<<<<<<< HEAD
         this.state = {
             heading: "",
             imagelink: "",
             content: ""
         }
+=======
+        
+>>>>>>> 354780f55865b70b7a3f6a6730311255072e0d02
     }
 
     //use the lifecycle method to get latest news from the database

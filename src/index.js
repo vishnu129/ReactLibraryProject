@@ -1,9 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 8de814c78383d1cf1c08174e0e583e3394c57a58
+=======
+
+>>>>>>> 354780f55865b70b7a3f6a6730311255072e0d02
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
