@@ -9,7 +9,7 @@ const DemoBox = props => <p className={`height-${props.value}`}>{props.children}
 function suggestionBox(props) {
     const { Content } = Layout;
     // const list = this.props;
-
+console.log(props.data);
     var settings = {
         dots: true,
         infinite: false,

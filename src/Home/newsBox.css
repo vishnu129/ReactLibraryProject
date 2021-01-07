@@ -1,6 +1,7 @@
 .wrapper{
   display: grid;
   grid-template-columns: 60% 40%;
+ 
 }
 
 .newsImage{
@@ -25,4 +26,7 @@ padding-left: 10px;
   float: right;
   padding-right: 10px;
   color: blue;
+}
+.newstitle{
+  padding-top: 600px;
 }
