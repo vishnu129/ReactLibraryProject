@@ -9,11 +9,6 @@ import "./newsBox.css";
 class NewsBox extends Component {
     constructor() {
         super();
-        this.state = {
-            heading: "",
-            imagelink: "",
-            content: ""
-        }
     }
 
     //use the lifecycle method to get latest news from the database
@@ -37,14 +32,14 @@ class NewsBox extends Component {
 
         return (
             <div>
-                 <h1>{data.newsBox.title}</h1>
+                 <h1 className="title">{data.newsBox.title}</h1>
             <Carousel autoplay>
                 <div>
                     <div className="wrapper">
                         <div className="newsImage">
                             <img
                                 className="imageArea"
-                                src={list[0]["image-url"]} />
+                                src={list[0]["image-url"]} alt="image" />
                         </div>
                         <div className="newsContent">
                             <h2>{list[0].heading}</h2>
@@ -58,7 +53,7 @@ class NewsBox extends Component {
                         <div className="newsImage">
                             <img
                                 className="imageArea"
-                                src={list[1]["image-url"]} />
+                                src={list[1]["image-url"]} alt="image" />
                         </div>
                         <div className="newsContent">
                             <h2>{list[1].heading}</h2>
@@ -72,7 +67,7 @@ class NewsBox extends Component {
                         <div className="newsImage">
                             <img
                                 className="imageArea"
-                                src={list[2]["image-url"]} />
+                                src={list[2]["image-url"]} alt="image"/>
                         </div>
                         <div className="newsContent">
                             <h2>{list[2].heading}</h2>
@@ -86,7 +81,7 @@ class NewsBox extends Component {
                         <div className="newsImage">
                             <img
                                 className="imageArea"
-                                src={list[3]["image-url"]} />
+                                src={list[3]["image-url"]} alt="image"/>
                         </div>
                         <div className="newsContent">
                             <h2>{list[3].heading}</h2>
