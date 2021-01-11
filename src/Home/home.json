@@ -1,0 +1,22 @@
+{
+    "footer":   
+    {
+        "library":{
+            "title1":"THE LIBRARY",
+            "id":1,
+            "content":["Vision","Volunteer","Blogs","Careers"] 
+
+        },
+        "discover":{
+            "title2":"DISCOVERY",
+            "id":2,
+            "content":["Home","Books","Authors","Return To Search"]             
+        },
+        "help":{
+            "title3":"HELP",
+            "id":3,
+            "content":["Contact Us","Report","Help Centres"]
+        }
+    }
+
+}
