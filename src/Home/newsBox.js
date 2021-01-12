@@ -7,10 +7,6 @@ import "./newsBox.css";
 
 
 class NewsBox extends Component {
-    constructor() {
-        super();
-    }
-
     //use the lifecycle method to get latest news from the database
 
     /* componentDidMount()
@@ -22,10 +18,6 @@ class NewsBox extends Component {
     getData() {
         return data.newsBox.newsHeadings;
     }
-
-
-
-
 
     render() {
         const list = this.getData();
