@@ -7,7 +7,6 @@ const { Content, Footer } = Layout;
 
 
 function getData() {
-  console.log("This is get data");
   return data.footer;
 }
 function footer() {
