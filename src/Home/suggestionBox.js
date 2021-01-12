@@ -8,8 +8,8 @@ import "slick-carousel/slick/slick-theme.css";
 const DemoBox = props => <p className={`height-${props.value}`}>{props.children}</p>
 function suggestionBox(props) {
     const { Content } = Layout;
-    // const list = this.props;
-console.log(props.data);
+  
+console.log("suggestionbox"+props.data);
     var settings = {
         dots: true,
         infinite: false,
@@ -51,15 +51,11 @@ console.log(props.data);
                     <h2 className="kids">{props.title}</h2>
                     <h4 className="see"> See All</h4>
                     <Slider {...settings} className="Slider">
-                        <DemoBox value={50} className="Books">
-                            <img className="imageArea"
-                                src={props.data[0]["image-url"]} alt="read" />
-                        </DemoBox>
                         <DemoBox value={50}>
                             <img className="imageArea"
-                                src={props.data[1]["image-url"]} alt="read" />
+                                src={props.data} alt="read" />
                         </DemoBox>
-                        <DemoBox value={100}>
+                        {/* <DemoBox value={100}>
                             <img className="imageArea"
                                 src={props.data[2]["image-url"]} alt="read" />
                         </DemoBox>
@@ -78,7 +74,7 @@ console.log(props.data);
                         <DemoBox value={100}>
                             <img className="imageArea"
                                 src={props.data[6]["image-url"]} alt="read" />
-                        </DemoBox>
+                        </DemoBox> */}
                     </Slider>
                 </Content>
             </Layout>
