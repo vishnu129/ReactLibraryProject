@@ -18,7 +18,6 @@ function header() {
         <div className="font">THE <br/>Library</div>
             <div className="donation">Donate</div>
             <div className="log">Log-In</div>
-            
             <div className="donateicon">
                 <IconButton>
                 <AccountBalanceIcon></AccountBalanceIcon>

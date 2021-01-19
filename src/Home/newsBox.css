@@ -1,0 +1,32 @@
+.wrapper{
+  display: grid;
+  grid-template-columns: 60% 40%;
+ 
+}
+
+.newsImage{
+  background-color: white;
+  float: left;
+  height: 300px;
+}
+.newsContent{
+background-color: gainsboro;
+float: right;
+height: 300px;
+padding-left: 10px;
+}
+
+.imageArea{
+  height: 300px;
+  align-content: center;
+  width: 100%;
+}
+
+.seemore{
+  float: right;
+  padding-right: 10px;
+  color: blue;
+}
+.newstitle{
+  padding-top: 600px;
+}
