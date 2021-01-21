@@ -28,7 +28,6 @@ function footer() {
               {/* <Col span={8}> */}
                 <Card title={data1.library.title1} className='title' >
                   <div className='words' key={data1.id}>
-
                   <div> <h3>{data1.library.content[0]}</h3></div>
                   <div> <h3>{data1.library.content[1]}</h3></div>
                   <div> <h3>{data1.library.content[2]}</h3></div>
