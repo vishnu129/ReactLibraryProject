@@ -8,9 +8,14 @@ export const Menuitems=[
         title : 'Donate',
         url: '#',
         cName:'nav-links'
+     },
+    {
+        title : 'Membership',
+        url: '#',
+        cName:'nav-links'
     },
     {
-        title : 'Signup',
+        title : 'ContactUs',
         url: '#',
         cName:'nav-links'
     }

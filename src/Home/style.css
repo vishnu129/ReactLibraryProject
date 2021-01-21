@@ -14,7 +14,8 @@
 }
 /* .footerstyle{
     text-align: center;
-    background-color: #d2f6fe;
+    background-color: #d9f9c9;
+    
 }
 .site-layout{
   color:teal;
@@ -75,96 +76,76 @@ color: #000000;
   }
   .font {
     position: absolute;
-
-font-family: IM FELL English SC;
-font-style:italic;
-font-weight: bold;
-font-size: 40px;
-line-height: 40px;
-text-align:center;
-top:30px;
+width: 304.75px;
+height: 96.87px;
+left: 0px;
+top: 3px;
  
-color:rgb(250, 250, 253);
-/* background-color: aqua; */
+font-family: IM FELL English SC;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 61px;
+text-align: center;
+ 
+color: #000000;
  
 }
  
 .background {
-    
-  /* left: -4px; */
- 
-background-color:steelblue;
-height: 130px;
-   
-}
- 
-/* .donateicon {
-    position:relative;
-    padding-left: 970px;
-    max-width: 20px;
-    top:-15px;
- 
- 
+  position: absolute;
+width: 100%;
+height: 200px;
+/* left: -4px; */
+max-width: 100%;
+max-height: 25%;
+top: 0px;
+background-color: #d9f9c9;
 
-color:white;
-} */
-/*  
+}
+
+.donateicon {
+  position: absolute;
+  width: 285px;
+height: 558px;
+left: 987px;
+top: 18px;
+color: #000000;
+}
 .donation {
-    position: absolute;
+  position: absolute;
 width: 185px;
 height: 33px;
-left: 999px;
-top: 5px;
- 
+left: 977px;
+top: 33px;
+
 font-family: IM FELL English;
-font-size: 20px;
-line-height: 30px;
+font-style: normal;
+font-weight: normal;
+font-size: 26px;
+line-height: 36px;
 text-align: center;
- cursor: pointer;
-color:white ;
- 
-} */
-/* .header__left {
-  flex: 0.5;
-  min-width: 30px;
-  background-color: rgb(99, 2, 2);
-  color: rgb(19, 18, 18);
-  border-radius: 5px;
-   padding: 10px; 
-  display:flex;
-  align-items: right;
-  size: 10px;
-  right:auto;
-} */
-/* .header__left > input {
-  border: fuchsia;
-  width:300px;
-  height: 50px;
-  background-color: aqua;
-  left: 3000px;
-  
+
+color: #000000;
 
 }
-.donation :hover {
-    color: #f80000;
-    }
- 
+
 .log {
- 
-    position: absolute;
-    width: 185px;
-    height: 33px;
-    left: 1077px;
-    top: 5px;
-    
-    font-family: IM FELL English;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
-    text-align: center;
-    cursor: pointer;
-    color:  white;
+
+  position: absolute;
+  width: 185px;
+  height: 33px;
+  left: 1077px;
+  top: 33px;
+  
+  font-family: IM FELL English;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 36px;
+  text-align: center;
+  
+  color: #000000;
 }
 
 .log:hover {
@@ -174,24 +155,12 @@ color:white ;
  
 /* .searchBar {
     position: relative;
-    width: 185px;
+    width: 200px;
     height: 20px;
-    left: 900px;
-    top:-15px;
-} */
- 
-.body {
-  display: flex;
-  position: absolute;
-  object-fit: cover;
-width: 1447px;
-height: 500px;
-padding-bottom: 200px;
-/* left: opx; */
-top: 130px;
-max-width: 99%;
-max-height: 99%;
-opacity:50%;
+    left: 960px;
+    top:70px;
+    mix-blend-mode: darken;
+    
 }
 
 .quote {
@@ -303,4 +272,31 @@ color: #000000;
 .header__left > input {
   border: none;
   width: 30%;
+}
+   
+.quote {
+  position: absolute;
+  width: 304.75px;
+height: 196.87px;
+left: 250px;
+top: 120px;
+  font-family: IM FELL English;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 30px;
+text-align: center;
+
+color: #000000;
+  
+} 
+ .body {
+object-fit: cover;
+width: 100%;
+height: 550px;
+padding-bottom: -30px;
+max-width: 99%;
+max-height: 99%;
+mix-blend-mode:darken;
+opacity:100%;
 }

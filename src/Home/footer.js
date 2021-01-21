@@ -4,25 +4,24 @@ import { Layout } from 'antd';
 import { Card, Col, Row } from 'antd';
 import './style.css';
 import data from './home.json';
-const { Header, Content, Footer } = Layout;
+const { Content, Footer } = Layout;
 
 
 
 function getData() {
-  console.log("This is get data");
   return data.footer;
 }
 function footer() {
   getData();
   const data1 = getData();
   return (
-    <Layout>
-      <Layout >
-        {/* <Header className="site-layout-background" style={{ backgroundColor: 'cornsilk' }} /> */}
-        {/* <Content style={{ margin: '24px 16px 0', overflow: 'initial' }}>
+    <Layout className="footerbody">
+      <Layout className="site-layout" style={{}}>
+      
+        <Content style={{ margin: '24px 16px 0', overflow: 'initial' }}>
           <div className="site-layout-background" style={{ padding: 24, textAlign: 'center' }}>
           </div>
-        </Content> */}
+        </Content> 
         <Footer  >
           <div >
             <Row gutter={16}>
