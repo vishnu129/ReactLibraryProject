@@ -17,6 +17,7 @@ function index() {
       <Header />
       <Quote />
       <News news = {news}/>
+      
       {
         content
           .map(childObj => {
@@ -25,6 +26,7 @@ function index() {
           }
           )
       } 
+      
       <Footer />
 
     </div>
