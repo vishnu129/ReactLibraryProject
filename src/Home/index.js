@@ -1,27 +1,28 @@
-import React from "react";
+import React, { Fragment } from "react";
 import Footer from "./footer";
-import Header from "./header";
+import Header from "./Header";
 import News from "./newsBox";
+import Quote from "./quotation";
 import SuggestionBox from "./suggestionBox";
-// import Deleteit from './deleteIt';
 import data from "./body.json";
+import newsData from "./home.json";
+import HomeRouter from "../Router/homeRouter";
 
-function getData() {
-  return data.Content;
-}
 function index() {
-  const kids = getData().kidsbooks;
+  const content = data.Content;
+  const news = newsData.newsBox;
+  let obj;
   return (
     <div>
-      {/* <Header />
-       <SuggestionBox title="kids" data= {kids}/><br></br><br></br> */}
       <Header />
-      <News />
-      <SuggestionBox title="kids" data={kids} />
-      <Footer />
-      {data.Content.map(arr => arr[Object.keys(arr)].map(obj => (
-        <div>{obj.name}</div>
-      )))}
+      {/* <Navbar/> */}
+      <Quote />
+      <News news={news} />
+      {content.map((childObj) => {
+        obj = childObj[Object.keys(childObj)];
+        return <SuggestionBox genre={obj} />;
+      })}
+      <HomeRouter />
     </div>
   );
 }

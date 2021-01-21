@@ -1,120 +1,213 @@
-.words {
-  font-family: "Josefin Slab";
-  font-size: medium;
-  font-style: "Regular";
-}
-.title {
-  /* display: flex; */
+.words{
   flex: auto;
-  color: red;
-  font-family: "IM FELL English SC";
-  font-size: 40px;
-  font-weight: 700;
-  padding: 10px;
-}
-.footerstyle {
-  display: flex;
-  flex: auto;
-  text-align: center;
-  background-color: cornsilk;
-}
+    font-family: 'Josefin Slab';
+    font-size: medium;
+    font-style: 'Regular';
+} 
 
-.flex-container {
-  display: flex;
-  flex: auto;
-  flex-wrap: nowrap;
-}
+.title{
+        flex: auto;
+        font-family: 'IM FELL English SC';
+        font-size: 40px;
+        font-weight: 700;
 
-.kidsBooks {
-  height: 200px;
-  width: 25px;
-  padding: 50px;
 }
-.imageArea {
-  height: 300px;
-  align-content: center;
-  width: 250px;
-  justify-content: space-evenly;
-  padding: 20px;
+/* .footerstyle{
+    text-align: center;
+    background-color: #d9f9c9;
+    
 }
+.site-layout{
+  color:teal;
+} */
 
-.Slider {
+.kidsBooks{
+    height: 200px;
+    width: 25px;
+    padding: 50px;
+  }
+  .imageArea{
+    height: 300px;
+    align-content: center;
+    width: 250px;
+    justify-content: space-evenly;
+    padding:20px;
+  }
+   
+.Slider{
   position: relative;
-  width: 100%;
-  height: 300px;
+  width: 100% ;
+  height:300px;
   top: -70px;
-
-  /* bottom: auto; */
+background-color:#d7f5bc;
+  bottom: auto;
 }
 
-.kids {
-  position: relative;
-  padding-top: 10px;
-  padding-left: 20px;
-  font-family: IM FELL English SC;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 40px;
-  line-height: 61px;
-  text-align: left;
-  color: rgb(12, 12, 12);
+.kids{
+
+position: relative;
+padding-top: 10px;
+padding-left: 20px;
+font-family: IM FELL English SC;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 61px;
+text-align: left;
+ color: rgb(12, 12, 12);
 }
 
-.see {
+.see{
   position: relative;
-  top: -20px;
-  padding-right: 20px;
-  font-family: IM FELL English;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 30px;
-  line-height: 36px;
-  text-align: right;
-  cursor: pointer;
-  color: #000000;
+top:-60px;
+padding-right: 10px;
+font-family: IM FELL English;
+font-style: normal;
+font-weight: normal;
+font-size: 26px;
+line-height: 36px;
+text-align: right;
+ cursor: pointer;
+color: #000000;
+
 }
 .see:hover {
   color: #f80000;
+  }
+  .font {
+    position: absolute;
+width: 304.75px;
+height: 96.87px;
+left: 0px;
+top: 3px;
+ 
+font-family: IM FELL English SC;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 61px;
+text-align: center;
+ 
+color: #000000;
+ 
 }
-.font {
+ 
+.background {
   position: absolute;
+width: 100%;
+height: 200px;
+/* left: -4px; */
+max-width: 100%;
+max-height: 25%;
+top: 0px;
+background-color: #d9f9c9;
 
-  font-family: Georgia, serif;
+}
+
+.donateicon {
+  position: absolute;
+  width: 285px;
+height: 558px;
+left: 987px;
+top: 18px;
+color: #000000;
+}
+.donation {
+  position: absolute;
+width: 185px;
+height: 33px;
+left: 977px;
+top: 33px;
+
+font-family: IM FELL English;
+font-style: normal;
+font-weight: normal;
+font-size: 26px;
+line-height: 36px;
+text-align: center;
+
+color: #000000;
+
+}
+
+.log {
+
+  position: absolute;
+  width: 185px;
+  height: 33px;
+  left: 1077px;
+  top: 33px;
+  
+  font-family: IM FELL English;
   font-style: normal;
   font-weight: normal;
-  font-size: 30px;
-  line-height: 40px;
+  font-size: 26px;
+  line-height: 36px;
   text-align: center;
-  top: 3px;
-
+  
   color: #000000;
-  /* background-color: aqua; */
 }
 
-.background {
-  /* left: -4px; */
-
-  background-color: rgb(137, 218, 214);
-  height: 120px;
+.log:hover {
+    color: #f80000;
+    }
+    */
+ 
+/* .searchBar {
+    position: relative;
+    width: 200px;
+    height: 20px;
+    left: 960px;
+    top:70px;
+    mix-blend-mode: darken;
+    
 }
+
+.quote {
+  display: flex;
+  
+  position: relative;
+  width: 304.75px;
+height: 40px;
+left: 120px;
+top: 170px;
+  font-family: IM FELL English;
+font-style: normal;
+font-weight: bolder;
+font-size: 26px;
+line-height: 30px;
+text-align: center;
+ 
+color: #000000;
+  
+} 
+/* .searchicon {
+  position: relative;
+   padding-left: 1170px;
+   top:-82px;
+  size: 40px;
+
+  left: -99px;
+    color:white;
+} */
 
 .account {
   position: relative;
   left: 980px;
   top: 0.5px;
-
+ 
   color: black;
 }
-
+ 
 .search {
   position: relative;
   top: -15px;
   height: 5px;
   left: 970px;
-
+ 
   color: black;
 }
-
+ 
 .searchicon {
   position: relative;
 }
@@ -124,7 +217,7 @@
   height: 33px;
   left: 999px;
   top: 10px;
-
+ 
   font-family: IM FELL English;
   font-size: 20px;
   line-height: 30px;
@@ -136,14 +229,14 @@
   transition: 100ms transform ease-in;
     transform: scale(1.08);
 }
-
+ 
 .login {
   position: absolute;
   width: 185px;
   height: 33px;
   left: 1077px;
   top: 10px;
-
+ 
   font-family: IM FELL English;
   font-style: normal;
   font-weight: normal;
@@ -153,7 +246,7 @@
   cursor: pointer;
   color: white;
 }
-
+ 
 .text {
   position: absolute;
   width: 185px;
@@ -164,7 +257,7 @@
 .log:hover {
   color: #f80000;
 }
-
+ 
 .header__left {
   flex: 1.5;
   min-width: 50px;
@@ -175,8 +268,35 @@
   display: flex;
   align-items: center;
 }
-
+ 
 .header__left > input {
   border: none;
   width: 30%;
+}
+   
+.quote {
+  position: absolute;
+  width: 304.75px;
+height: 196.87px;
+left: 250px;
+top: 120px;
+  font-family: IM FELL English;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 30px;
+text-align: center;
+
+color: #000000;
+  
+} 
+ .body {
+object-fit: cover;
+width: 100%;
+height: 550px;
+padding-bottom: -30px;
+max-width: 99%;
+max-height: 99%;
+mix-blend-mode:darken;
+opacity:100%;
 }

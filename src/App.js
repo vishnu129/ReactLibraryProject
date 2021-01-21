@@ -3,7 +3,8 @@ import './App.css';
 // import Home from './Routers/home'
 // import Index from './Home/index'
 import Index from './Home/index'
- 
+
+
 function App() {
   return (
       <div>
@@ -11,5 +12,4 @@ function App() {
       </div>
   );
 }
- 
 export default App
