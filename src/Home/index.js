@@ -6,8 +6,9 @@ import Quote from './quotation';
 import SuggestionBox from './suggestionBox';
 import data from './body.json'
 import newsData from "./home.json";
-import Navbar from './Navbar'
+import Contactus from "./Contactus"
 import HomeRouter from '../Router/homeRouter';
+import "./style.css";
 
 
 function index() {
@@ -15,7 +16,7 @@ function index() {
   const news = newsData.newsBox;
  let obj 
   return (
-    <div>
+    <div className="back">
       <Header />
       {/* <Navbar/> */}
       <Quote />
