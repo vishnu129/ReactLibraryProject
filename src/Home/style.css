@@ -1,20 +1,26 @@
 .words{
+  flex: auto;
     font-family: 'Josefin Slab';
     font-size: medium;
     font-style: 'Regular';
-}
+} 
+
 .title{
-        color: black;
+        flex: auto;
         font-family: 'IM FELL English SC';
         font-size: 40px;
         font-weight: 700;
-        
+
 }
-.footerstyle{
+/* .footerstyle{
     text-align: center;
     background-color: #d9f9c9;
     
 }
+.site-layout{
+  color:teal;
+} */
+
 .kidsBooks{
     height: 200px;
     width: 25px;
@@ -30,11 +36,11 @@
    
 .Slider{
   position: relative;
-  width: 100%; ;
+  width: 100% ;
   height:300px;
   top: -70px;
-
-  /* bottom: auto; */
+background-color:#d7f5bc;
+  bottom: auto;
 }
 
 .kids{
@@ -145,9 +151,9 @@ color: #000000;
 .log:hover {
     color: #f80000;
     }
-   
+    */
  
-.searchBar {
+/* .searchBar {
     position: relative;
     width: 200px;
     height: 20px;
@@ -156,20 +162,124 @@ color: #000000;
     mix-blend-mode: darken;
     
 }
+
+.quote {
+  display: flex;
+  
+  position: relative;
+  width: 304.75px;
+height: 40px;
+left: 120px;
+top: 170px;
+  font-family: IM FELL English;
+font-style: normal;
+font-weight: bolder;
+font-size: 26px;
+line-height: 30px;
+text-align: center;
+ 
+color: #000000;
+  
+} 
+/* .searchicon {
+  position: relative;
+   padding-left: 1170px;
+   top:-82px;
+  size: 40px;
+
+  left: -99px;
+    color:white;
+} */
+
+.account {
+  position: relative;
+  left: 980px;
+  top: 0.5px;
+ 
+  color: black;
+}
+ 
+.search {
+  position: relative;
+  top: -15px;
+  height: 5px;
+  left: 970px;
+ 
+  color: black;
+}
  
 .searchicon {
   position: relative;
-   padding-left: 1150px;
-   top: 5px;
-  size: 40px;
-    color:black;
 }
+.donate {
+  position: absolute;
+  width: 185px;
+  height: 33px;
+  left: 999px;
+  top: 10px;
+ 
+  font-family: IM FELL English;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+  color: white;
+}
+.donate :hover {
+  transition: 100ms transform ease-in;
+    transform: scale(1.08);
+}
+ 
+.login {
+  position: absolute;
+  width: 185px;
+  height: 33px;
+  left: 1077px;
+  top: 10px;
+ 
+  font-family: IM FELL English;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+  color: white;
+}
+ 
+.text {
+  position: absolute;
+  width: 185px;
+  height: 33px;
+  top: 55px;
+  left: 1050px;
+}
+.log:hover {
+  color: #f80000;
+}
+ 
+.header__left {
+  flex: 1.5;
+  min-width: 50px;
+  background-color: white;
+  color: red;
+  border-radius: 30px;
+  padding: 1px;
+  display: flex;
+  align-items: center;
+}
+ 
+.header__left > input {
+  border: none;
+  width: 30%;
+}
+   
 .quote {
   position: absolute;
   width: 304.75px;
 height: 196.87px;
-left: 287px;
-top: 170px;
+left: 250px;
+top: 120px;
   font-family: IM FELL English;
 font-style: normal;
 font-weight: bold;
@@ -183,9 +293,10 @@ color: #000000;
  .body {
 object-fit: cover;
 width: 100%;
-height: 900px;
-padding-bottom: 20px;
+height: 550px;
+padding-bottom: -30px;
 max-width: 99%;
 max-height: 99%;
-mix-blend-mode: darken;opacity:100%;
+mix-blend-mode:darken;
+opacity:100%;
 }

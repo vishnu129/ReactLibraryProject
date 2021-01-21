@@ -66,5 +66,5 @@ function suggestionBox(props) {
         </div>
     )
 }
-
+ 
 export default suggestionBox
