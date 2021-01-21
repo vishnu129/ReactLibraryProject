@@ -1,161 +1,182 @@
-.words{
-    font-family: 'Josefin Slab';
-    font-size: medium;
-    font-style: 'Regular';
+.words {
+  font-family: "Josefin Slab";
+  font-size: medium;
+  font-style: "Regular";
 }
-.title{
-        color: black;
-        font-family: 'IM FELL English SC';
-        font-size: 40px;
-        font-weight: 700;
-        
+.title {
+  /* display: flex; */
+  flex: auto;
+  color: red;
+  font-family: "IM FELL English SC";
+  font-size: 40px;
+  font-weight: 700;
+  padding: 10px;
 }
-.footerstyle{
-    text-align: center;
-    background-color: cornsilk;
+.footerstyle {
+  display: flex;
+  flex: auto;
+  text-align: center;
+  background-color: cornsilk;
 }
-.kidsBooks{
-    height: 200px;
-    width: 25px;
-    padding: 50px;
-  }
-  .imageArea{
-    height: 300px;
-    align-content: center;
-    width: 250px;
-    justify-content: space-evenly;
-    padding:20px;
-  }
-   
-.Slider{
+
+.flex-container {
+  display: flex;
+  flex: auto;
+  flex-wrap: nowrap;
+}
+
+.kidsBooks {
+  height: 200px;
+  width: 25px;
+  padding: 50px;
+}
+.imageArea {
+  height: 300px;
+  align-content: center;
+  width: 250px;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.Slider {
   position: relative;
-  width: 100%; ;
-  height:300px;
+  width: 100%;
+  height: 300px;
   top: -70px;
 
   /* bottom: auto; */
 }
 
-.kids{
-
-position: relative;
-padding-top: 10px;
-padding-left: 20px;
-font-family: IM FELL English SC;
-font-style: normal;
-font-weight: normal;
-font-size: 40px;
-line-height: 61px;
-text-align: left;
- color: rgb(12, 12, 12);
+.kids {
+  position: relative;
+  padding-top: 10px;
+  padding-left: 20px;
+  font-family: IM FELL English SC;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 61px;
+  text-align: left;
+  color: rgb(12, 12, 12);
 }
 
-.see{
+.see {
   position: relative;
-top:-60px;
-padding-right: 10px;
-font-family: IM FELL English;
-font-style: normal;
-font-weight: normal;
-font-size: 26px;
-line-height: 36px;
-text-align: right;
- cursor: pointer;
-color: #000000;
-
+  top: -20px;
+  padding-right: 20px;
+  font-family: IM FELL English;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: right;
+  cursor: pointer;
+  color: #000000;
 }
 .see:hover {
   color: #f80000;
-  }
-  .font {
-    position: absolute;
-
-font-family: IM FELL English SC;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 30px;
-text-align: center;
- 
-color: #000000;
-/* background-color: aqua; */
- 
 }
- 
+.font {
+  position: absolute;
+
+  font-family: Georgia, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  top: 3px;
+
+  color: #000000;
+  /* background-color: aqua; */
+}
+
 .background {
-    
   /* left: -4px; */
- 
-background-color: rgb(137, 218, 214);
-height: 80px;
-   
-}
- 
-.donateicon {
-    position:relative;
-    padding-left: 970px;
-    max-width: 20px;
-    top:-15px;
- 
- 
 
-color: green;
-}
- 
-.donation {
-    position: absolute;
-width: 185px;
-height: 33px;
-left: 999px;
-top: 5px;
- 
-font-family: IM FELL English;
-font-size: 20px;
-line-height: 30px;
-text-align: center;
- cursor: pointer;
-color:white ;
- 
-}
-.donation :hover {
-    color: #f80000;
-    }
- 
-.log {
- 
-    position: absolute;
-    width: 185px;
-    height: 33px;
-    left: 1077px;
-    top: 5px;
-    
-    font-family: IM FELL English;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
-    text-align: center;
-    cursor: pointer;
-    color:  white;
+  background-color: rgb(137, 218, 214);
+  height: 120px;
 }
 
-.log:hover {
-    color: #f80000;
-    }
-   
- 
-.searchBar {
-    position: relative;
-    width: 185px;
-    height: 20px;
-    left: 997px;
-    top:-44px;
+.account {
+  position: relative;
+  left: 980px;
+  top: 0.5px;
+
+  color: black;
 }
- 
+
+.search {
+  position: relative;
+  top: -15px;
+  height: 5px;
+  left: 970px;
+
+  color: black;
+}
+
 .searchicon {
   position: relative;
-   padding-left: 1170px;
-   top:-110px;
-  size: 40px;
-    color:black;
+}
+.donate {
+  position: absolute;
+  width: 185px;
+  height: 33px;
+  left: 999px;
+  top: 10px;
+
+  font-family: IM FELL English;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+  color: white;
+}
+.donate :hover {
+  transition: 100ms transform ease-in;
+    transform: scale(1.08);
+}
+
+.login {
+  position: absolute;
+  width: 185px;
+  height: 33px;
+  left: 1077px;
+  top: 10px;
+
+  font-family: IM FELL English;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+  color: white;
+}
+
+.text {
+  position: absolute;
+  width: 185px;
+  height: 33px;
+  top: 55px;
+  left: 1050px;
+}
+.log:hover {
+  color: #f80000;
+}
+
+.header__left {
+  flex: 1.5;
+  min-width: 50px;
+  background-color: white;
+  color: red;
+  border-radius: 30px;
+  padding: 1px;
+  display: flex;
+  align-items: center;
+}
+
+.header__left > input {
+  border: none;
+  width: 30%;
 }

@@ -1,35 +1,68 @@
 {
-    "Content": {
-        "kidsbooks": [
-            {
-                "link": "",
-                "image-url":"https://static.onecms.io/wp-content/uploads/sites/6/2012/02/charlottes-web-cover_240.jpg"
-            },
-            {
-                "link": "",
-                "image-url": "https://1.bp.blogspot.com/-TQH4W-WA330/VlTO3NCkHAI/AAAAAAAAAV8/E7f3W8BV3rQ/s1600/Screen%2BShot%2B2015-11-24%2Bat%2B12.55.24%2BPM.png"
-            },
-               
-            {
-                "link": "",
-                "image-url": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/main-1533070979.jpg"
-         },
-            {
-                "link": "",
-                "image-url": "https://www.nationwidebooks.co.nz/application/modules/images/assets/upload/9781786281814.jpg"
-            },
-            {
-                "link": "",
-                "image-url": "https://images-na.ssl-images-amazon.com/images/I/81kcxxd0RvL.jpg"
-            },
-            {
-                "link": "",
-                "image-url": "https://upload.wikimedia.org/wikipedia/en/1/1d/Thejunglebook_movieposter.jpg"
-            },
-            {
-                "link": "",
-                "image-url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1507963312l/33574273._SX318_.jpg"
-            }
-        ]
-    }
+    "Content": [
+        {
+            "kidsbooks": [
+                {
+                    "link": "",
+                    "image-url": "https://static.onecms.io/wp-content/uploads/sites/6/2012/02/charlottes-web-cover_240.jpg"
+                },
+                {
+                    "link": "",
+                    "image-url": "https://1.bp.blogspot.com/-TQH4W-WA330/VlTO3NCkHAI/AAAAAAAAAV8/E7f3W8BV3rQ/s1600/Screen%2BShot%2B2015-11-24%2Bat%2B12.55.24%2BPM.png"
+                },
+                {
+                    "link": "",
+                    "image-url": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/main-1533070979.jpg"
+                },
+                {
+                    "link": "",
+                    "image-url": "https://www.nationwidebooks.co.nz/application/modules/images/assets/upload/9781786281814.jpg"
+                },
+                {
+                    "link": "",
+                    "image-url": "https://images-na.ssl-images-amazon.com/images/I/81kcxxd0RvL.jpg"
+                },
+                {
+                    "link": "",
+                    "image-url": "https://upload.wikimedia.org/wikipedia/en/1/1d/Thejunglebook_movieposter.jpg"
+                },
+                {
+                    "link": "",
+                    "image-url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1507963312l/33574273._SX318_.jpg"
+                }
+            ]
+        },
+        {
+            "Thrillers": [
+                {
+                    "link": "",
+                    "image-url": "https://m.media-amazon.com/images/I/51Cmm6cxcgL.jpg"
+                },
+                {
+                    "link": "",
+                    "image-url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564777124l/50096381._SX318_SY475_.jpg"
+                },
+                {
+                    "link": "",
+                    "image-url": "https://m.media-amazon.com/images/I/51skNS4nrhL.jpg"
+                },
+                {
+                    "link": "",
+                    "image-url": "https://i.pinimg.com/474x/27/82/9a/27829a3edb0ea7fe75ba415dac5519b8.jpg"
+                },
+                {
+                    "link": "",
+                    "image-url": "https://m.media-amazon.com/images/I/514VmL1ekFL.jpg"
+                },
+                {
+                    "link": "",
+                    "image-url": "https://upload.wikimedia.org/wikipedia/en/1/1d/Thejunglebook_movieposter.jpg"
+                },
+                {
+                    "link": "",
+                    "image-url": "https://word-power.co.uk/wp-content/uploads/2019/02/gone-girl-197x300.jpg"
+                }
+            ]
+        }
+    ]
 }
