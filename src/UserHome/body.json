@@ -1,0 +1,106 @@
+{
+    "Content": [
+        {
+            
+            "newReleases": [
+                {
+                    "title": "New Releases",
+                    "link": "hi",
+                    "imageUrl": "https://static.onecms.io/wp-content/uploads/sites/6/2012/02/charlottes-web-cover_240.jpg"
+                },
+                {
+                    "link": "hello",
+                    "imageUrl": "https://1.bp.blogspot.com/-TQH4W-WA330/VlTO3NCkHAI/AAAAAAAAAV8/E7f3W8BV3rQ/s1600/Screen%2BShot%2B2015-11-24%2Bat%2B12.55.24%2BPM.png"
+                },
+                {
+                    "link": "hello",
+                    "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/main-1533070979.jpg"
+                },
+                {
+                    "link": "hello",
+                    "imageUrl": "https://www.nationwidebooks.co.nz/application/modules/images/assets/upload/9781786281814.jpg"
+                },
+                {
+                    "link": "hello",
+                    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/81kcxxd0RvL.jpg"
+                },
+                {
+                    "link": "",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1d/Thejunglebook_movieposter.jpg"
+                },
+                {
+                    "link": "",
+                    "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1507963312l/33574273._SX318_.jpg"
+                }
+            ]
+        },
+        {
+            
+            "Suggestion": [
+                {
+                    "title": "Recommended for you",
+                    "link": "",
+                    "imageUrl": "https://m.media-amazon.com/images/I/51Cmm6cxcgL.jpg"
+                },
+                {
+                    "link": "",
+                    "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1564777124l/50096381._SX318_SY475_.jpg"
+                },
+                {
+                    "link": "",
+                    "imageUrl": "https://m.media-amazon.com/images/I/51skNS4nrhL.jpg"
+                },
+                {
+                    "link": "",
+                    "imageUrl": "https://i.pinimg.com/474x/27/82/9a/27829a3edb0ea7fe75ba415dac5519b8.jpg"
+                },
+                {
+                    "link": "",
+                    "imageUrl": "https://m.media-amazon.com/images/I/514VmL1ekFL.jpg"
+                },
+                {
+                    "link": "",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1d/Thejunglebook_movieposter.jpg"
+                },
+                {
+                    "link": "",
+                    "imageUrl": "https://word-power.co.uk/wp-content/uploads/2019/02/gone-girl-197x300.jpg"
+                }
+            ]
+        }
+    
+, {
+    "Toppicks": [
+    {
+        "title": "Top picks",
+        "link": "",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/71llt+Cjm8L.jpg"
+    },
+    {
+        "link": "",
+        "imageUrl": "https://i.pinimg.com/736x/02/1e/ae/021eae19bf02803e2e8e911e6d488872.jpg"
+    },
+    {
+        "link": "",
+        "imageUrl": "https://m.media-amazon.com/images/I/416WT-XxPLL.jpg"
+    },
+    {
+        "link": "",
+        "imageUrl": "https://soenglish.me/content/images/2020/04/07-speaking-book.jpg"
+    },
+    {
+        "link": "",
+        "imageUrl": "https://prodimage.images-bn.com/pimages/9781259862410_p0_v2_s192x300.jpg"
+    },
+    {
+        "link": "",
+        "imageUrl": "https://prodimage.images-bn.com/pimages/9781506247595_p0_v3_s192x300.jpg"
+    },
+    {
+        "link": "",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51amHWNAArL.jpg"
+    }
+]
+}
+]
+}
