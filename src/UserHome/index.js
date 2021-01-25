@@ -1,13 +1,31 @@
 import React, { Fragment } from 'react';
-import suggestionBox from '../Home/suggestionBox';
+import SuggestionBox from '../Home/suggestionBox';
+import Header from '../UserHome/header'
+import homeRouter from '../Router/homeRouter'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import data from "./body.json";
 
 function index() {
-    return(
+    const content = data.Content;
+    let obj
+    return (
         <div>
-            <header/>
-            
-            <suggestionBox/>
-            <footer/> 
+            <Router>
+                <Header name="User Name" />
+                <Switch>
+                    
+                </Switch>
+            </Router>
+
+            {
+                content
+                    .map(childObj => {
+                        obj = childObj[Object.keys(childObj)]
+                        return <SuggestionBox genre={obj} />
+                    }
+                    )
+            }
+            <homeRouter />
         </div>
     )
 }
