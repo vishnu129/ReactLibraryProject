@@ -7,6 +7,8 @@ import SuggestionBox from "./suggestionBox";
 import data from "./body.json";
 import newsData from "./home.json";
 import homeRouter from "../Router/homeRouter";
+import blogdata from "./blogs.json";
+import Blog from './blogs';
 
 
 function index() {
@@ -15,9 +17,9 @@ function index() {
   let obj;
   return (
     <div>
-      <Header />
+      {/* <Header />
       {/* <Navbar/> */}
-      <Quote />
+      {/* <Quote />
       <News news = {news}/>
       
       {
@@ -29,10 +31,13 @@ function index() {
           )
       } 
       
-      <homeRouter/>
-
+      <homeRouter/>  */}
+<Blog data=
+{blogdata}/>
     </div>
   );
 }
 
 export default index;
+
+

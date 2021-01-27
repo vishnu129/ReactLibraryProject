@@ -3,12 +3,16 @@ import React from "react";
 // import Index from './Home/index'
 import Index from "./Home/index";
 // import Books from './Home/Books';
-import Blog from './Home/blogs';
+// import Blog from './Home/blogs';
 function App(){
   return (
     <div>
-      <Blog />
+      <Index />
     </div>
   )
 }
 export default App;
+
+
+
+
