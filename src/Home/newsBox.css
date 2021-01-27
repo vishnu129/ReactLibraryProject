@@ -3,17 +3,20 @@
   grid-template-columns: 60% 40%;
  
 }
-
+.title{
+  padding-left: 10px;
+}
 .newsImage{
   background-color: white;
   float: left;
   height: 300px;
 }
 .newsContent{
-background-color: gainsboro;
+background-color:#f3dc75;
 float: right;
 height: 300px;
 padding-left: 10px;
+
 }
 
 .imageArea{
