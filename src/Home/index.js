@@ -2,11 +2,14 @@ import React, { Fragment } from "react";
 import Footer from "./footer";
 import Header from "./header";
 import News from "./newsBox";
-import Quote from "./Quotation";
+import Quote from "./quotation";
 import SuggestionBox from "./suggestionBox";
 import data from "./body.json";
 import newsData from "./home.json";
 import homeRouter from "../Router/homeRouter";
+import blogdata from "./blogs.json";
+import Blog from './blogs';
+
 
 function index() {
   const content = data.Content;
@@ -14,9 +17,9 @@ function index() {
   let obj;
   return (
     <div>
-      <Header />
+      {/* <Header />
       {/* <Navbar/> */}
-      <Quote />
+      {/* <Quote />
       <News news = {news}/>
       
       {
@@ -28,10 +31,13 @@ function index() {
           )
       } 
       
-      <homeRouter/>
-
+      <homeRouter/>  */}
+<Blog data=
+{blogdata}/>
     </div>
   );
 }
 
 export default index;
+
+
