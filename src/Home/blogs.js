@@ -1,8 +1,6 @@
 import React from "react";
-
 import Header from "./header";
 import SuggestionBox from "./suggestionBox";
-
 import { makeStyles } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
@@ -18,7 +16,6 @@ import CardContent from "@material-ui/core/CardContent";
 import { Avatar } from "@material-ui/core";
 import BookmarkBorderIcon from "@material-ui/icons/BookmarkBorder";
 import Pagination from "@material-ui/lab/Pagination";
-
 
 const Styles = makeStyles((theme) => ({
   appBar: {
@@ -70,24 +67,23 @@ const Styles = makeStyles((theme) => ({
 
 function blogs(props) {
   const classes = Styles();
-  const blogdata= props.data.blogs;
-  console.log(blogdata)
+  const blogdata = props.data.blogs;
+
+  console.log(blogdata);
   return (
     <div>
       <Header />
       <AppBar className={classes.appBar} position="static">
         <Toolbar>
           <Typography variant="h1" color="primary">
-           { blogdata.heading}
+            {blogdata.heading}
           </Typography>
         </Toolbar>
       </AppBar>
-      <Box className={classes.hero}>
-        <Box>Books World</Box>
-      </Box>
+      <Box className={classes.hero}>{blogdata.imagename}</Box>
       <Container maxWidth="lg" className={classes.blogsContainer}>
-        <Typography variant="h4" className={classes.blogTitle}>
-          Library Articles
+        <Typography variant="h1" className={classes.blogTitle}>
+          {blogdata.articles.title}
         </Typography>
         <Grid container spacing={3}>
           <Grid item xs={12} sm={6} md={4}>
@@ -95,38 +91,35 @@ function blogs(props) {
               <CardActionArea>
                 <CardMedia
                   className={classes.media}
-                  image="https://miro.medium.com/max/3200/1*p5xcS04RUpXoa_nAGCRM2A.png"
+                  image={blogdata.articles.library[0].image1}
                   title="Contemplative Reptile"
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="h2">
-                    Library BlockChain
+                    {blogdata.articles.library[0].articlename}
                   </Typography>
                   <Typography
                     variant="body2"
                     color="textSecondary"
                     component="p"
                   >
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Ullam earum pariatur quas! In aliquam recusandae culpa
-                    maiores officia a, itaque omnis odio molestias perferendis
-                    excepturi perspiciatis suscipit, saepe voluptatum at!
+                    {blogdata.articles.library[0].theory}
                   </Typography>
                 </CardContent>
               </CardActionArea>
               <CardActions className={classes.CardActions}>
                 <Box className={classes.author}>
-                  <Avatar src="https://www.rothamsted.ac.uk/sites/default/files/person-profile-images/steve-mcgrath.jpg" />
+                  <Avatar src={blogdata.articles.library[0].profilepic} />
                   <Box ml={2}>
                     <Typography variant="subtitle2" component="p">
-                      Steve MCGrath
+                      {blogdata.articles.library[0].name}
                     </Typography>
                     <Typography
                       variant="subtitle2"
                       color="textSecondary"
                       component="p"
                     >
-                      May 14, 2020 Steve MCGrath
+                      {blogdata.articles.library[0].date}
                     </Typography>
                   </Box>
                 </Box>
@@ -141,38 +134,35 @@ function blogs(props) {
               <CardActionArea>
                 <CardMedia
                   className={classes.media}
-                  image="https://www.penguin.co.uk/content/dam/prh/articles/adults/2020/september/must-read-classics-main-image-1800x1200.jpg"
+                  image={blogdata.articles.library[1].image1}
                   title="Contemplative Reptile"
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="h2">
-                    100 must read classic books
+                  {blogdata.articles.library[1].articlename}
                   </Typography>
                   <Typography
                     variant="body2"
                     color="textSecondary"
                     component="p"
                   >
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Ullam earum pariatur quas! In aliquam recusandae culpa
-                    maiores officia a, itaque omnis odio molestias perferendis
-                    excepturi perspiciatis suscipit, saepe voluptatum at!
+                    {blogdata.articles.library[1].theory}
                   </Typography>
                 </CardContent>
               </CardActionArea>
               <CardActions className={classes.CardActions}>
                 <Box className={classes.author}>
-                  <Avatar src="https://www.theadvocate.com.au/images/transform/v1/crop/frm/jU9weEXQxcXxwRCjU8nuGc/273b6366-ac6f-4248-968c-c4ac20a4e59e.JPG/r0_0_4100_2730_w1200_h678_fmax.jpg" />
+                  <Avatar src={blogdata.articles.library[1].profilepic} />
                   <Box ml={2}>
                     <Typography variant="subtitle2" component="p">
-                      Burnie's Kyle Perry
+                      {blogdata.articles.library[1].name}
                     </Typography>
                     <Typography
                       variant="subtitle2"
                       color="textSecondary"
                       component="p"
                     >
-                      August 12, 2001 Steve MCGrath
+                      {blogdata.articles.library[1].date}
                     </Typography>
                   </Box>
                 </Box>
@@ -187,38 +177,35 @@ function blogs(props) {
               <CardActionArea>
                 <CardMedia
                   className={classes.media}
-                  image="https://static01.nyt.com/images/2018/12/09/books/review/1209-BKS-COVER_Sub01/1209-BKS-COVER_Sub01-articleLarge.gif?quality=75&auto=webp&disable=upscale"
+                  image={blogdata.articles.library[2].image1}
                   title="Contemplative Reptile"
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="h2">
-                    The 10 Best Books of 2018
+                  {blogdata.articles.library[2].articlename}
                   </Typography>
                   <Typography
                     variant="body2"
                     color="textSecondary"
                     component="p"
                   >
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Ullam earum pariatur quas! In aliquam recusandae culpa
-                    maiores officia a, itaque omnis odio molestias perferendis
-                    excepturi perspiciatis suscipit, saepe voluptatum at!
+                    {blogdata.articles.library[2].theory}
                   </Typography>
                 </CardContent>
               </CardActionArea>
               <CardActions className={classes.CardActions}>
                 <Box className={classes.author}>
-                  <Avatar src="https://www.vicnews.com/wp-content/uploads/2018/11/14598595_web1_EsiEdugyan.jpg" />
+                  <Avatar src={blogdata.articles.library[2].profilepic} />
                   <Box ml={2}>
                     <Typography variant="subtitle2" component="p">
-                      Esi Edugyan
+                      {blogdata.articles.library[2].name}
                     </Typography>
                     <Typography
                       variant="subtitle2"
                       color="textSecondary"
                       component="p"
                     >
-                      April 11, 2018 Esi Edugyan
+                      {blogdata.articles.library[2].date}
                     </Typography>
                   </Box>
                 </Box>
@@ -233,38 +220,35 @@ function blogs(props) {
               <CardActionArea>
                 <CardMedia
                   className={classes.media}
-                  image="https://s3.amazonaws.com/libapps/accounts/1743/images/reference_books_1.jpg"
+                  image={blogdata.articles.library[3].image1}
                   title="Contemplative Reptile"
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="h2">
-                    Home Articles
+                  {blogdata.articles.library[3].articlename}
                   </Typography>
                   <Typography
                     variant="body2"
                     color="textSecondary"
                     component="p"
                   >
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Ullam earum pariatur quas! In aliquam recusandae culpa
-                    maiores officia a, itaque omnis odio molestias perferendis
-                    excepturi perspiciatis suscipit, saepe voluptatum at!
+                    {blogdata.articles.library[3].theory}
                   </Typography>
                 </CardContent>
               </CardActionArea>
               <CardActions className={classes.CardActions}>
                 <Box className={classes.author}>
-                  <Avatar src="https://thumbs.dreamstime.com/b/old-male-author-writing-books-home-199222862.jpg" />
+                  <Avatar src={blogdata.articles.library[3].profilepic} />
                   <Box ml={2}>
                     <Typography variant="subtitle2" component="p">
-                      Tim Cook
+                      {blogdata.articles.library[3].name}
                     </Typography>
                     <Typography
                       variant="subtitle2"
                       color="textSecondary"
                       component="p"
                     >
-                      Sep 12, 2019 Tim Cook
+                      {blogdata.articles.library[3].date}
                     </Typography>
                   </Box>
                 </Box>
