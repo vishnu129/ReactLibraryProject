@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "./header";
+import Header from "./Header";
 import SuggestionBox from "./suggestionBox";
 import data from "./body.json";
 import Toolbar from "@material-ui/core/Toolbar";
