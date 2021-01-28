@@ -9,18 +9,18 @@
   background-color: #d9f9c9;
   } */
    
-  .body {
+  .backimage {
     position: absolute;
     object-fit: cover;
   width: 1447px;
-  height: 1210px;
+  height: 1000px;
   /* left: opx; */
-  top: 225px;
+  top: 60px;
   max-width: 99%;
   max-height: 99%;
    
-  /* background: url("https://images.fineartamerica.com/images-medium-large-5/london-skyline-watercolor-1-irina-march.jpg"); */
-  mix-blend-mode: darken;
+  /* background: url("https://images.fineartamerica.com/images-medium-large-5/london-skyline-watercolor-1-irina-march.jpg");
+  mix-blend-mode: darken; */
   backdrop-filter: blur(4px);
   /* Note: backdrop-filter has minimal browser support */
   background-color:#bce79a;
@@ -36,8 +36,9 @@
   top: 200px;
   max-width: 99%;
   max-height: 99%;
-  background: #F8FFE4;
+  background:  rgb(108, 206, 125);
   border-radius: 10px;
+  opacity:1 ;
   }
    
   .mail {
@@ -57,7 +58,6 @@
   height: 59px;
   left: 372px;
   top: 350px;
-   
   background: #FFFFFF;
   border: 1px solid #000000;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -74,7 +74,7 @@
   border: 1px solid #000000;
   }
    
-  .searchicon {
+  /* .searchicon {
     position: absolute;
   width: 42px;
   height: 44.46px;
@@ -83,4 +83,4 @@
   color: #000;
   background-color: aqua;
    
-  }
+  } */

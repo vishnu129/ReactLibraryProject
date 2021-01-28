@@ -1,38 +1,29 @@
-import React, { Fragment } from 'react';
-import Footer from './footer';
-import Header from './Header';
-import News from './newsBox';
-import Quote from './quotation';
-import SuggestionBox from './suggestionBox';
-import data from './body.json'
+import React, { Fragment } from "react";
+import Footer from "./footer";
+import Header from "./Header";
+import News from "./newsBox";
+import Quote from "./quotation";
+import SuggestionBox from "./suggestionBox";
+import data from "./body.json";
 import newsData from "./home.json";
-import Contactus from "./Contactus"
-import HomeRouter from '../Router/homeRouter';
-import "./style.css";
-
+import HomeRouter from "../Router/homeRouter";
 
 function index() {
   const content = data.Content;
   const news = newsData.newsBox;
- let obj 
+  let obj;
   return (
     <div className="back">
       <Header />
-      {/* <Navbar/> */}
       <Quote />
-      <News news = {news}/>
-      {
-        content
-          .map(childObj => {
-            obj = childObj[Object.keys(childObj)]
-            return <SuggestionBox genre={obj}  />
-          }
-          )
-      } 
-      <HomeRouter/>
-
+      <News news={news} />
+      {content.map((childObj) => {
+        obj = childObj[Object.keys(childObj)];
+        return <SuggestionBox genre={obj} />;
+      })}
+      <HomeRouter />
     </div>
-  )
+  );
 }
- 
-export default index
+
+export default index;

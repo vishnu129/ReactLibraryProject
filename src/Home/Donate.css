@@ -1,0 +1,54 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 0.5em;
+    justify-items: stretch;
+    align-items:stretch;
+}
+.wrapper > div {
+    background-color: #eee;
+    padding: 1em;
+}
+.wrapper > div:nth-child(odd) {
+    background-color:#ddd;
+}
+
+.wrapper > p {
+    text-align: center;
+    justify-content: center;
+}
+
+.box1 {
+    /* align-self: start; */
+    grid-column: 1/2;
+    grid-row: 1/2;
+    border: 1px solid #333;
+}
+.box1 {
+    text-align: justify;
+}
+.box2 {
+    /* align-self: end; */
+    grid-column: 2;
+    grid-row: 1/2;
+    border: 1px solid #333;
+}
+
+.box2 {
+    text-align: justify;
+}
+
+.footer__albumLogo {
+    height: 60px;
+    width: 60px;
+    margin-right: 30px;
+    object-fit: contain;
+    
+  }
+
+  .logo {
+      display: flex;
+      padding: 10px;
+      align-content: center;
+  }

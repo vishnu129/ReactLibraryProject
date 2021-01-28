@@ -1,0 +1,27 @@
+.vision {
+    width: 1000px;
+    height: 500px;
+    margin: 5px auto;
+    border-radius: 5px 20px 5px;
+    border: 5px solid black;
+    display: block;
+    background-color: aquamarine;
+    justify-content: center;
+  
+    /* padding: 10px;
+      box-shadow: 2px 2px 2px 2px black;
+      border-radius: 10px;
+      align-items: center;
+      align-self: center; */
+  }
+  
+  .vision > p {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .vision > h1 {
+    font-size: 40px;
+    margin: 1px solid black;
+  }
+  

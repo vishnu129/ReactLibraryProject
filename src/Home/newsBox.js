@@ -40,7 +40,6 @@ function NewsBox(props) {
     }
 
 
-
 export default NewsBox;
 
 

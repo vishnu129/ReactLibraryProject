@@ -9,10 +9,10 @@ function Contactus() {
         <div>            
            <div >
             <Header/>
-            {/* <img
-            className="body"
+            <img
+            className="backimage"
             src="https://render.fineartamerica.com/images/rendered/default/greeting-card/images/artworkimages/medium/3/88-london-england-skyline-michael-tompsett.jpg?&targetx=-25&targety=0&imagewidth=750&imageheight=500&modelwidth=700&modelheight=500&backgroundcolor=A25438&orientation=0"
-            /> */}
+            />
             </div> 
             <div className="prompt"></div>
             <div><input type="text"  className="mail" placeholder="E-mail" ></input></div>  
