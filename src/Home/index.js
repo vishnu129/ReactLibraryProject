@@ -18,7 +18,7 @@ function index() {
        <HomeRouter />
 {/*import React, { Fragment } from "react";
 import Footer from "./footer";
-import Header from "./header";
+import Header from "./Header";
 import News from "./newsBox";
 import Quote from "./quotation";
 import SuggestionBox from "./suggestionBox";
@@ -35,9 +35,9 @@ function index() {
   let obj;
   return (
     <div>
-      {/* <Header />
-      {/* <Navbar/> */}
-      {/* <Quote />
+      <Header />
+      
+      <Quote />
       <News news = {news}/>
       
       {

@@ -55,6 +55,7 @@
     outline: none;
     border: none;
     background: none;
+    display: flex;
   }
    
   .header__right {

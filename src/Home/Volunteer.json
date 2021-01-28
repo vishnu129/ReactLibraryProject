@@ -1,0 +1,71 @@
+{
+    "welcome":[
+        {
+            "heading":"Welcome",
+            "summary":"Books World ( booksworld.org) is a non-profit, open source, digital public library hoisted by Internet Archieve which lends millions of ebooks to millions of patrons each year. Open Library is made possible by volunteers, like you, from more than 8 different countries (US, NL, NZ, ES, IN, UK, DE, GR, CA). We believe everyone deserves a say in how their library serves our community. A library should be not only for, but of the people. Together, let's build the World's library.If you're busy but still like to show your generosity and support our cause, consider sponsoring a book or making a tax-deductible donation.donations@libraryarchieve.org"
+        },
+        {
+            "heading":"How it works:",
+            "summary":"Open Library hosts an invite-only community chat room on slack where book lovers and contributors can stay updated, ask questions, and collaborate towards improve OpenLibrary.org. Each week, Open Library also hosts an inclusive Community Call where members of the community may learn and participate in discussing the evolution of OpenLibrary.org. To join our chat or participate in one of our weekly community calls, please Choose Your Character and click the relevant link to become involved. We're so excited to welcome you!"
+        },
+        {
+            "heading":"Choose Your Character:",
+            "summary":"Want to get involved? First, lets choose your character: Which role best describes you?"
+        }
+    ],
+
+    "openings":[
+        {
+        "heading": "Librarian",
+        "summary":"Open Library's book catalog has millions of books and thousands of data errors. Sometimes author names are misspelled, book covers are missing, or works and authors are duplicated or conflated. Librarians work together and communicate using our Slack chat channel to identify and fix data issues in our catalog. If you've ever been interested in programming scripts, Open Library's engineering team has written guides and created basic tools to empower librarians to start fixing common problems at scale. Your contributions will help patrons find the books they are looking for, ensure patrons receive accurate data, and that our engineering team has the right feedback to build thoughtful tools for librarians and our greater Open Library community. Learn more about librarianship at Open Library or browse our librarian resources."
+        ,
+        "url":"https://booksworld.org/librarians",
+        "heading1":"Contibute as a librarian",
+        "url1":"https://BooksWorld.org/librarians"
+    }
+    ],
+    "middle":[
+        {
+            
+        "heading":"Communications & Outreach :",
+        "summary":"As a library, we're excited about how we're making our resources discoverable and accessible to book lovers around the world.Currently, our communications team is in great need of researchers,technical writers or storytellers, video makers, editors, marketers,idea persons, and public relations or media persons. Each day,countless books are read and discussed online. We'll work together to responsibly enhance those experiences through creative communications.",
+        "url":"https://BooksWorld.org/librarians",
+        "heading1":" Join our communication Team..!"
+           
+        },
+        {
+            
+            "heading":"Software Engineer:",
+            "summary":" Want to write code that empowers million of book lovers to discover books they'll love? Each year scores of volunteers help fix bugs on OpenLibrary.org and architect new features and programs that reach thousands of patrons: The Book Sponsorship Program (featured on BoingBoing) has helped dozens of patrons sponsors missing books and the Reading Log has been used more than a million times by readers to track their reading progress!",
+             "url":"https://BooksWorld.org/librarians",
+            "heading1":" Follow or Join Us on Github and Join our Slack!"
+               
+        },
+        {
+            
+            "heading":"Designer & User Researcher:",
+            "summary":" Does OpenLibrary.org look like it's from the the 90's? Help us fix that!",
+            "url":"https://BooksWorld.org/librarians",
+            "heading1":" Contribute as a Designer!"
+               
+        },
+        {
+            
+            "heading":"Beta Tester's Group",
+            "summary":"  You don't need to be an expert librarian or a professional engineer or designer to have a big impact. Can you help us test features before they go out to the world? Can you help us tweet out the latest news?Are you able to help answer questions for our community? Join our beta program and participate in community discussion:",
+            "url":"https://BooksWorld.org/librarians",
+            "heading1":" Contribute as a BetaTester!"
+               
+        }   
+    ],
+    
+        "End":[
+            {
+             "summary":" Open Library is an initiative of the Internet Archive, a 501(c)(3) non-profit, building a digital library of Internet sites and other cultural artifacts in digital form. Other projects include the Wayback Machine, archive.org and archive-it.org"
+            }
+        ]
+
+        
+    
+    
+}

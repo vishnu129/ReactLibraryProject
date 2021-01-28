@@ -54,19 +54,19 @@ function footer() {
                     </Link>
                     <Link to={'/' + data1.discover.content[1]}>
                       <div><h3>{data1.discover.content[1]}</h3></div>
-      </Link>
+                    </Link>
                   </div>
                 </Card>
               </Col>
               <Col span={8}>
                 <Card title={data1.help.title3} bordered={false}>
                   <div className='words' key={data1.id}>
-                  <Link to={"/"+data1.help.content[0]}>
-                    <div> <h3>{data1.help.content[0]}</h3></div>
+                    <Link to={"/" + data1.help.content[0]}>
+                      <div> <h3>{data1.help.content[0]}</h3></div>
                     </Link>
                   </div>
                 </Card>
-                
+
               </Col>
             </Row>
           </div>
