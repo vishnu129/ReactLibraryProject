@@ -9,6 +9,8 @@ import newsData from "./home.json";
 import homeRouter from "../Router/homeRouter";
 import blogdata from "./blogs.json";
 import Blog from './blogs';
+import Careers from './Careers';
+
 
 
 function index() {
@@ -32,8 +34,9 @@ function index() {
       } 
       
       <homeRouter/>  */}
-<Blog data=
-{blogdata}/>
+{/* <Blog data=
+{blogdata}/> */}
+<Careers />
     </div>
   );
 }
