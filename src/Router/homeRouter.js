@@ -1,7 +1,6 @@
 import React from 'react';
 import Footer from '../Home/footer';
 import data from '../Home/home.json';
-import Hello from '../Components/hello';
 import {BrowserRouter as Router,Switch,Route} from 'react-router-dom'
 function getData() {
     console.log("This is get data");
