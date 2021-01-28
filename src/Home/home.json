@@ -7,7 +7,6 @@
                 "link": "",
                 "imageUrl": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/201401/meluha_650_012014032026.jpg",
                 "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi numquam neque aut nesciunt,inventore, libero consequuntur adipisci, sed officia natus perferendis dolor ducimus ipsa quas beatae ipsam ullam illo laborum vel fugiat repellat at atque magnam? Debitis porro at aut."
-
             },
             {
                 "heading": "Heading 2",
@@ -28,8 +27,7 @@
                 "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi numquam neque aut nesciunt,inventore, libero consequuntur adipisci, sed officia natus perferendis dolor ducimus ipsa quas beatae ipsam ullam illo laborum vel fugiat repellat at atque magnam? Debitis porro at aut."
             }
         ]
-    }
-    ,
+    },
     "footer" :   
     {
         "library":{
@@ -41,12 +39,12 @@
         "discover":{
             "title2":"DISCOVERY",
             "id":2,
-            "content":["Home","Books","Authors","Return To Search"]             
+            "content":["Home","Books"]             
         },
         "help":{
             "title3":"HELP",
             "id":3,
-            "content":["Contact Us","Report","Help Centres"]
+            "content":["Contact Us"]
         }
     }
 
