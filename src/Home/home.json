@@ -5,25 +5,25 @@
             {
                 "heading": "Heading 1",
                 "link": "",
-                "image-url": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/201401/meluha_650_012014032026.jpg",
+                "imageUrl": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/201401/meluha_650_012014032026.jpg",
                 "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi numquam neque aut nesciunt,inventore, libero consequuntur adipisci, sed officia natus perferendis dolor ducimus ipsa quas beatae ipsam ullam illo laborum vel fugiat repellat at atque magnam? Debitis porro at aut."
             },
             {
                 "heading": "Heading 2",
                 "link": "",
-                "image-url": "https://m.media-amazon.com/images/I/51V65tyBqNL.jpg",
+                "imageUrl": "https://m.media-amazon.com/images/I/51V65tyBqNL.jpg",
                 "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi numquam neque aut nesciunt,inventore, libero consequuntur adipisci, sed officia natus perferendis dolor ducimus ipsa quas beatae ipsam ullam illo laborum vel fugiat repellat at atque magnam? Debitis porro at aut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, dolor!"
             },
             {
                 "heading": "Heading 3",
                 "link": "",
-                "image-url": "https://n1.sdlcdn.com/imgs/f/s/j/AmishCombos-0a122.jpg",
+                "imageUrl": "https://n1.sdlcdn.com/imgs/f/s/j/AmishCombos-0a122.jpg",
                 "summary": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi numquam neque aut nesciunt,inventore, libero consequuntur adipisci, sed officia natus perferendis dolor ducimus ipsa quas beatae ipsam ullam illo laborum vel fugiat repellat at atque magnam? Debitis porro at aut."
             },
             {
                 "heading": "Heading 4",
                 "link": "",
-                "image-url": "https://upload.wikimedia.org/wikipedia/en/e/e5/The_Oath_of_the_Vayuputras.jpg",
+                "imageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e5/The_Oath_of_the_Vayuputras.jpg",
                 "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi numquam neque aut nesciunt,inventore, libero consequuntur adipisci, sed officia natus perferendis dolor ducimus ipsa quas beatae ipsam ullam illo laborum vel fugiat repellat at atque magnam? Debitis porro at aut."
             }
         ]
@@ -39,12 +39,12 @@
         "discover":{
             "title2":"DISCOVERY",
             "id":2,
-            "content":["Home","Books","Authors","Return To Search"]             
+            "content":["Home","Books"]             
         },
         "help":{
             "title3":"HELP",
             "id":3,
-            "content":["Contact Us","Report","Help Centres"]
+            "content":["Contact Us"]
         }
     }
 

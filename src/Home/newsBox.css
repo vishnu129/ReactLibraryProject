@@ -12,10 +12,11 @@
   height: 300px;
 }
 .newsContent{
-background-color: gainsboro;
+background-color:#f3dc75;
 float: right;
 height: 300px;
 padding-left: 10px;
+
 }
 
 .imageArea{

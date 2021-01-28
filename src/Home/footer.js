@@ -4,6 +4,7 @@ import { Layout } from 'antd';
 import { Card, Col, Row } from 'antd';
 import './style.css';
 import data from './home.json';
+import blogdata from './blogs.json';
 const { Content, Footer } = Layout;
 
 
@@ -53,11 +54,7 @@ function footer() {
                     </Link>
                     <Link to={'/' + data1.discover.content[1]}>
                       <div><h3>{data1.discover.content[1]}</h3></div>
-                    </Link> <Link to={'/' + data1.discover.content[2]}>
-                      <div><h3>{data1.discover.content[2]}</h3></div>
-                    </Link> <Link to={'/' + data1.discover.content[3]}>
-                      <div><h3>{data1.discover.content[3]}</h3></div>
-                    </Link>
+      </Link>
                   </div>
                 </Card>
               </Col>
@@ -67,15 +64,9 @@ function footer() {
                   <Link to={"/"+data1.help.content[0]}>
                     <div> <h3>{data1.help.content[0]}</h3></div>
                     </Link>
-                    <Link to={"/"+data1.help.content[1]}>
-                    <div> <h3>{data1.help.content[1]}</h3></div>
-                    </Link> <Link to={"/"+data1.help.content[2]}>
-                    <div> <h3>{data1.help.content[2]}</h3></div>
-                    </Link> <Link to={"/"+data1.help.content[3]}>
-                    <div> <h3>{data1.help.content[3]}</h3></div>
-                    </Link>
                   </div>
                 </Card>
+                
               </Col>
             </Row>
           </div>
