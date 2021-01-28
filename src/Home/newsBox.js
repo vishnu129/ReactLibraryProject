@@ -19,23 +19,19 @@ class NewsBox extends Component {
         return data.newsBox.newsHeadings;
     }
 
-
-
-
-
     render() {
         const list = this.getData();
 
         return (
             <div>
-                 <h1 className="newstitle">{data.newsBox.title}</h1>
+                 <h1 className="title">{data.newsBox.title}</h1>
             <Carousel autoplay>
                 <div>
                     <div className="wrapper">
                         <div className="newsImage">
                             <img
                                 className="imageArea"
-                                src={list[0]["image-url"]} alt="read" />
+                                src={list[0]["image-url"]} alt="image" />
                         </div>
                         <div className="newsContent">
                             <h2>{list[0].heading}</h2>
@@ -49,7 +45,7 @@ class NewsBox extends Component {
                         <div className="newsImage">
                             <img
                                 className="imageArea"
-                                src={list[1]["image-url"]} alt="read" />
+                                src={list[1]["image-url"]} alt="image" />
                         </div>
                         <div className="newsContent">
                             <h2>{list[1].heading}</h2>
@@ -63,7 +59,7 @@ class NewsBox extends Component {
                         <div className="newsImage">
                             <img
                                 className="imageArea"
-                                src={list[2]["image-url"]} alt="read"/>
+                                src={list[2]["image-url"]} alt="image"/>
                         </div>
                         <div className="newsContent">
                             <h2>{list[2].heading}</h2>
@@ -77,7 +73,7 @@ class NewsBox extends Component {
                         <div className="newsImage">
                             <img
                                 className="imageArea"
-                                src={list[3]["image-url"]} alt="read"/>
+                                src={list[3]["image-url"]} alt="image"/>
                         </div>
                         <div className="newsContent">
                             <h2>{list[3].heading}</h2>

@@ -5,7 +5,7 @@ import { Layout } from "antd";
 import './style.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import data from './body.json'
+// import data from './body.json'
 const DemoBox = props => <p className={`height-${props.value}`}>{props.children}</p>
 function suggestionBox(props) {
     const { Content } = Layout;

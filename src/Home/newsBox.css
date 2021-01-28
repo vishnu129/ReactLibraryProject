@@ -3,7 +3,9 @@
   grid-template-columns: 60% 40%;
  
 }
-
+.title{
+  padding-left: 10px;
+}
 .newsImage{
   background-color: white;
   float: left;
