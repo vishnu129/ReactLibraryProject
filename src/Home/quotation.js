@@ -1,10 +1,9 @@
 import React from 'react';
 import './style.css';
-
-
-function quotation() {
+ 
+function Quotation() {
     return (
-
+ 
         <div>
             
                  <img className="body"
@@ -15,6 +14,6 @@ function quotation() {
     )
 
 
-
+ 
 }
-export default quotation
+export default Quotation

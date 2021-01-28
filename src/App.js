@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import Index from './Home/index';
-import Contactus from "./Home/Contactus";
 import Form from "./Signup/Form";
 import LForm from "./Login/LForm";
 import CForm from "./ContactUs/CForm";
@@ -19,5 +18,4 @@ function App() {
         
       </div>
   );
-}
-export default App
+  }export default App;
