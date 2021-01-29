@@ -18,8 +18,8 @@ function index() {
   return (
     <div>
       <Header />
-      
-      <Quote />
+     
+       <Quote />
       <News news = {news}/>
       
       {
@@ -30,9 +30,10 @@ function index() {
           }
           )
       } 
-      
+
       <homeRouter/> 
-{/* <Blog data={blogdata}/> */}
+{/* <Blog data=
+{blogdata}/> */}
     </div>
   );
 }

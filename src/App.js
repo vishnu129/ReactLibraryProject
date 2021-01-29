@@ -8,6 +8,10 @@ import Vision from "./Home/Vision";
 import Volunteer from './Home/Volunteer';
 import Help from "./Home/Help";
 import Donate from './Home/Donate';
+// import Home from './cmp/Auth';
+// import About from './cmp/About';
+// import Listing from './cmp/Listing';
+// import Auth from './cmp/Auth';
 
 
 
@@ -15,6 +19,7 @@ function App() {
   return (
       <div>
         <Index />
+        {/* <Auth/> */}
         
       </div>
   );
