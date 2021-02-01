@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import SuggestionBox from '../Home/suggestionBox';
 import Header from '../UserHome/header'
-import homeRouter from '../Router/homeRouter'
+// import homeRouter from '../Router/homeRouter'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import data from "./body.json";
 
@@ -25,7 +25,7 @@ function index() {
                     }
                     )
             }
-            <homeRouter />
+            {/* <homeRouter /> */}
         </div>
     )
 }

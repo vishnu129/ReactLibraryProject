@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './CForm.css';
 import FormContactUs from './FormContactUs';
 import FormSuccess from './FormSuccess';
-import Header from '../Home/Header.js';
+import Header from '../Home/header.js';
 
 const CForm = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -14,7 +14,6 @@ const CForm = () => {
     <>
       <Header/>
       <div className='form-container'>
-        <span className='close-btn'>×</span>
         {!isSubmitted ? (
           <FormContactUs submitForm={submitForm} />
         ) : (

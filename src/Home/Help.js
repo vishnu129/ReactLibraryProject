@@ -1,7 +1,7 @@
 import React from "react";
 import data from "./Help.json"
 import "./Help.css";
-import Header from "./Header";
+import Header from "./header";
 
 function Help() {
   const faq=data.FAQ

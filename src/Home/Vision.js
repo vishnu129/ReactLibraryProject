@@ -1,6 +1,6 @@
 import React from "react";
 import "./Vision.css";
-import Header from "./Header.js";
+import Header from "./header.js";
 import data from "./Vision.json";
 
 function Vision() {
