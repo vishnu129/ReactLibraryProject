@@ -14,7 +14,6 @@ const CForm = () => {
     <>
       <Header/>
       <div className='form-container'>
-        <span className='close-btn'>×</span>
         {!isSubmitted ? (
           <FormContactUs submitForm={submitForm} />
         ) : (

@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Index from './Home/index';
+import Index from './AdminHome/index';
 
 
 function App() {
