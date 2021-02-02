@@ -6,7 +6,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 const DemoBox = props => <p className={`height-${props.value}`}>{props.children}</p>
 function suggestionBox(props) {
-    console.log("this is the prop " + props.genre)
 
     const { Content } = Layout;
     var settings = {
