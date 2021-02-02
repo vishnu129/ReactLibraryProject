@@ -23,6 +23,9 @@ import signin from '../Login/LForm';
 import signup from '../Signup/Form';
 import userhome from '../UserHome/index'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import Edit from '../Home/Edit';
+import Profile from '../Home/Profile';
+import History from '../Home/History';
 const footerData = data1.footer;
 
 const news = newsData.newsBox;
@@ -62,7 +65,8 @@ let obj;
 const home = () => (
   <div>
     <Header />
-    <Quote />
+    <Edit />
+    {/* <Quote />
     <News news={news} />
     {
       content
@@ -70,17 +74,18 @@ const home = () => (
           obj = childObj[Object.keys(childObj)]
           return <SuggestionBox genre={obj} />
         }
-        )
-    }
-    <Footer />
+        ) */}
+    
+   
     {/* {
       footerData.map(obj => {
         console.log(obj.title);
         return <Footer data={obj} />
       })
 
-    } */}
+    } */} 
 
+<Footer />
   </div>
 );
 
