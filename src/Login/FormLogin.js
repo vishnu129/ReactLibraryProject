@@ -1,6 +1,7 @@
 import React from 'react';
 import validate from './validateInfo';
 import useForm from './useForm';
+import { Link } from 'react-router-dom';
 import './LForm.css';
 
 const FormLogin = ({ submitForm }) => {
@@ -8,6 +9,19 @@ const FormLogin = ({ submitForm }) => {
     submitForm,
     validate
   );
+  var dummy="is summy";
+const authenticate =() =>
+{
+  console.log("auth called")
+  if(values.password === "1234abc")
+  {
+     dummy="/signin/userhome"
+  }
+  else
+  {
+    dummy="/signin"
+  }
+}
 
   return (
     <div className='form-content-right'>
@@ -36,10 +50,11 @@ const FormLogin = ({ submitForm }) => {
           />
           {errors.password && <p>{errors.password}</p>}
         </div>
-       
-        <button className='form-input-btn' type='submit'>
-          Login
-        </button>
+        <Link to={dummy}>
+          <button className='form-input-btn' type='submit' onSubmit={authenticate()}>
+            {console.log(dummy)}
+            Login
+        </button></Link>
         <span className='form-input-login'>
           Do not have an account? SignUp <a href='#'>here</a>
         </span>

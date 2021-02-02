@@ -1,10 +1,11 @@
 
 import React from "react";
-import Header from "./Header";
+import Header from "./header";
 import "./Volunteer.css";
-import data from './Volunteer.json'
+//import data from './Volunteer.json'
 
-function Volunteer() {
+function Volunteer(props) {
+  const data = props.data
   const top = data.welcome
   const body = data.openings
   const body2= data.middle
@@ -14,7 +15,7 @@ function Volunteer() {
     <Header/>
     <div>
       <div className="heading">
-        <h1>Volunteering @ Books World</h1>
+        <h1>{data.title} @ Books World</h1>
       </div>
       <div className="content__body">
     
