@@ -65,6 +65,7 @@ let obj;
 const home = () => (
   <div>
     <Header />
+    <Edit />
     {/* <Quote />
     <News news={news} />
     {
@@ -73,9 +74,9 @@ const home = () => (
           obj = childObj[Object.keys(childObj)]
           return <SuggestionBox genre={obj} />
         }
-        )
-    }
-    <Footer />
+        ) */}
+    
+   
     {/* {
       footerData.map(obj => {
         console.log(obj.title);
@@ -83,7 +84,7 @@ const home = () => (
       })
 
     } */} 
-<Edit />
+
 <Footer />
   </div>
 );

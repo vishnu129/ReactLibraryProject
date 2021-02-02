@@ -24,6 +24,7 @@ function index() {
       <Edit /> */}
      {/* <History /> */}
       {/* <Profile /> */}
+      
        <HomeRouter />
 
       
