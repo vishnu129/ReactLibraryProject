@@ -1,0 +1,62 @@
+{
+    "FAQ":[
+        {
+            "heading":"FAQ Categories",
+            "summary":" Please review our Frequently Asked Questions.We try to keep them up to date. Here are direct links to the main FAQ categories."
+        }
+    ],
+    "links":[
+        {
+            "heading":"Learn About Open Library",
+             "url":"https://BooksWorld.org/librarians "
+        },
+        {
+            "heading":"Learn About DAISY/Print Disabled Books on Open Library ",
+             "url":" https://BooksWorld.org/librarians"
+        },
+        {
+            "heading":"How to Read Books on Open Library",
+             "url":" https://BooksWorld.org/librarians"
+        },
+        {
+            "heading":"How to Borrow Books Through Open Library ",
+             "url":" https://BooksWorld.org/librarians"
+        },
+        {
+            "heading":"How to use the List and Reading Log features ",
+             "url":"https://BooksWorld.org/librarians "
+        },
+        {
+            "heading":" How to Edit Open Library ",
+             "url":" https://BooksWorld.org/librarians"
+        },
+        {
+            "heading":"About Using Open Library Data ",
+             "url":" https://BooksWorld.org/librarians"
+        },
+        {
+            "heading":"Troubleshooting Common Problems ",
+             "url":"https://BooksWorld.org/librarians "
+        },
+        {
+            "heading":"How to delete your account ",
+             "url":"https://BooksWorld.org/librarians "
+        }
+
+    ],
+    "Bottom":[
+        {
+            "heading":"Contact US :",
+            "summary":"There are a few different ways to keep in touch with us:",
+             "url":"https://BooksWorld.org/librarians",
+             "heading1":"Interact with us on Twitter",
+             "summary1":"Join one of our mailing lists:",
+             "url1":"https://BooksWorld.org/librarians",
+             "summary2":":General discussion (archives), Librarianship, Tech (archives)",
+             "heading2":"Contact us using the Contact Form or",
+             "url2":"https://BooksWorld.org/librarians",
+             "summary3":"click here"
+
+        }
+    ]
+}

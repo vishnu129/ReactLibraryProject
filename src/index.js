@@ -6,9 +6,10 @@ import { ThemeProvider } from '@material-ui/core/styles';
 
 import blogs from './Home/blogs';
 ReactDOM.render(
-  <ThemeProvider blogs={blogs}>
-     <App />
-  </ThemeProvider>
+  <App/>
+  // <ThemeProvider blogs={blogs}>
+  //    <App />
+  // </ThemeProvider>
   
   ,
   document.getElementById('root')
