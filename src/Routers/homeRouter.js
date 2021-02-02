@@ -65,7 +65,7 @@ let obj;
 const home = () => (
   <div>
     <Header />
-    <Edit />
+    <Profile />
     {/* <Quote />
     <News news={news} />
     {
