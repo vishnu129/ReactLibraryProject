@@ -30,17 +30,16 @@ function Header(props) {
             <div className="icon"><LocalLibraryIcon /></div>
       BOOKS WORLD
      </h1>
-
           <div className="header__search">
             <SearchIcon />
             <input type="text" />
           </div>
         </div>
-
         <div className="header__right">
           <HeaderOption Icon={HomeIcon} title="Home" />
+          <Link to="/AdminHome/Profile">
           <HeaderOption Icon={PermIdentityIcon} title={name} />
-
+          </Link>
         </div>
         {//the side menu 
         }
@@ -72,9 +71,14 @@ function Header(props) {
           </nav>
 
         </IconContext.Provider>
+        
       </div>
 
+      {/* <img className="body"
+                    src="https://wallpaperaccess.com/full/16668.jpg"
+                    alt="read" /> */}
     </>
+    
   );
 }
 

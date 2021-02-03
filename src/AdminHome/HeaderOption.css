@@ -22,3 +22,7 @@
 .headerOption:hover {
     color: black;
 }
+.body{
+    max-width: 1240px;
+    height: 800px;
+}
