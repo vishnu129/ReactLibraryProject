@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-
+import { Link } from 'react-router-dom';
 import axios from "axios";// npm i axios 
 import "./Profile.css";
 import Toolbar from "@material-ui/core/Toolbar";
@@ -8,7 +8,7 @@ import Typography from "@material-ui/core/Typography";
 
 const Pricing = () => {
   const [profileName, setProfileName] = useState("Name:  Kumar");
-  
+
   const [profileCell, setProfileCell] = useState("Contact:  9393939399");
   const [profileImage, setProfileImage] = useState(
     "https://newcastlebeach.org/images/person-images.jpg"
@@ -16,9 +16,6 @@ const Pricing = () => {
   const [profileEmail, setProfileEmail] = useState("Email:  Kumar@gmail.com");
   const [profileAddress, setProfileAddress] = useState("address: Bangalore");
   const [profileOccupation, setProfileOccupation] = useState("Occupation: SoftwareDeveloper");
-
-  
-
   const profileData = async () => {
     try {
       const res = await axios.get("http://randomuser.me/api/");
@@ -40,13 +37,13 @@ const Pricing = () => {
   }, []);
   return (
     <div>
-        <Toolbar>
-      <Typography variant="h4" color="green">
-        Profile
+      <Toolbar>
+        <Typography variant="h4" color="green">
+          Profile
       </Typography>
       </Toolbar>
       <div className="card">
-        
+
         <img src={profileImage} style={{ width: "30%" }} />
         <h1>{profileName}</h1>
         <p className="title">{profileEmail}</p>

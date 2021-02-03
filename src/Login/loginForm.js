@@ -44,7 +44,7 @@ const handleChange2=(event)=>{
   )
 }
 
-  console.log("password")
+   console.log("password")
   !props.data?<h2>wrong creditals</h2>:             
     console.log("asdf")
   
