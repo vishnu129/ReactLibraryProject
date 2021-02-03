@@ -4,13 +4,15 @@ import SearchIcon from "@material-ui/icons/Search";
 import HeaderOption from "./HeaderOption";
 import LocalLibraryIcon from '@material-ui/icons/LocalLibrary';
 import HomeIcon from "@material-ui/icons/Home";
+import ContactsIcon from '@material-ui/icons/Contacts';
+import AccountBalanceIcon from "@material-ui/icons/AccountBalance";
 import PermIdentityIcon from '@material-ui/icons/PermIdentity';
 import * as FaIcons from 'react-icons/fa';
 import { IconContext } from 'react-icons';
 import { Link } from 'react-router-dom';
 import { SidebarData } from './SidebarData';
 import * as AiIcons from 'react-icons/ai';
-//npm install react-icons --save 
+// npm install react-icons --save 
 
 
 function Header(props) {
@@ -18,8 +20,11 @@ function Header(props) {
   let name = props.name
 
   const [sidebar, setSidebar] = useState(false);
+  const [search, setSearch] = useState("");
 
+  const searchOnChange = (event) => setSearch(event.target.value);
   const showSidebar = () => setSidebar(!sidebar);
+  const searchSubmit = () => console.log("searching for "+search);
 
   return (
     <>
@@ -31,14 +36,20 @@ function Header(props) {
       BOOKS WORLD
      </h1>
 
-          <div className="header__search">
-            <SearchIcon />
-            <input type="text" />
+          <div className="header__search" >
+          <SearchIcon />
+            
+            <input  type="text" placeholder="Search books" 
+              value={search} onChange = {searchOnChange}
+              onSubmit={searchSubmit}
+              />
           </div>
         </div>
 
         <div className="header__right">
           <HeaderOption Icon={HomeIcon} title="Home" />
+          <HeaderOption Icon={ContactsIcon} title="Contact Us" />
+          <HeaderOption Icon={AccountBalanceIcon} title="Donate" />
           <HeaderOption Icon={PermIdentityIcon} title={name} />
 
         </div>
@@ -55,7 +66,7 @@ function Header(props) {
             <ul className='nav-menu-items' onClick={showSidebar}>
               <li className='navbar-toggle'>
                 <Link to='#' className='menu-bars'>
-                  <AiIcons.AiOutlineClose />
+                  <AiIcons.AiOutlineClose className="closeIcon"/>
                 </Link>
               </li>
               {SidebarData.map((item, index) => {

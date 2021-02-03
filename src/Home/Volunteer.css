@@ -1,5 +1,5 @@
 .heading  {
-    text-align: left;
+    text-align: center;
     font-family:monospace;
     font-weight: bold;
     font-size: 30px;
@@ -7,4 +7,5 @@
 
 .content__body {
     text-align: justify;
+    padding: 10px 10px 10px 30px;
 }

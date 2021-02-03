@@ -20,8 +20,11 @@ function Header(props) {
   let name = props.name
 
   const [sidebar, setSidebar] = useState(false);
+  const [search, setSearch] = useState("");
 
+  const searchOnChange = (event) => setSearch(event.target.value);
   const showSidebar = () => setSidebar(!sidebar);
+  const searchSubmit = () => console.log("searching for "+search);
 
   return (
     <>
@@ -33,9 +36,13 @@ function Header(props) {
       BOOKS WORLD
      </h1>
 
-          <div className="header__search">
-            <SearchIcon />
-            <input type="text" />
+          <div className="header__search" >
+          <SearchIcon />
+            
+            <input  type="text" placeholder="Search books" 
+              value={search} onChange = {searchOnChange}
+              onSubmit={searchSubmit}
+              />
           </div>
         </div>
 
@@ -59,7 +66,7 @@ function Header(props) {
             <ul className='nav-menu-items' onClick={showSidebar}>
               <li className='navbar-toggle'>
                 <Link to='#' className='menu-bars'>
-                  <AiIcons.AiOutlineClose />
+                  <AiIcons.AiOutlineClose className="closeIcon"/>
                 </Link>
               </li>
               {SidebarData.map((item, index) => {
