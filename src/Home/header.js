@@ -12,6 +12,8 @@ import AccountBalanceIcon from "@material-ui/icons/AccountBalance";
 import PermIdentityIcon from '@material-ui/icons/PermIdentity';
  
 function Header() {
+  const searchOnChange = (event) => setSearch(event.target.value);
+  const searchSubmit = () => console.log("searching for "+search);
   return (
     <div className="header">
       <div className="header_left" >
@@ -21,10 +23,14 @@ function Header() {
       BOOKS WORLD
      </h1> 
       
-        <div className="header__search">
+     <div className="header__search" >
           <SearchIcon />
-          <input type="text" />
-        </div>
+            
+            <input  type="text" placeholder="Search books" 
+              value={search} onChange = {searchOnChange}
+              onSubmit={searchSubmit}
+              />
+          </div>
       </div>
  
       <div className="header__right">
