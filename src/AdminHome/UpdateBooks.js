@@ -1,5 +1,6 @@
 import { Button } from '@material-ui/core';
 import React from 'react';
+import { Link } from 'react-router-dom';
 import "./UpdateBooks.css";
 import Header from './header';
 
@@ -13,11 +14,14 @@ function UpdateBooks(){
 <br />
 <br />
      <p>
-         <Button>AddBooks</Button><br />
+     <Link to="/AdminHome/UpdateBooks/AddBooks">
+         <Button>AddBooks</Button><br /></Link>
          <br />
-         <Button>UpdatingBooks Books</Button><br />
+         <Link to="/AdminHome/UpdateBooks/UpdateingBooks">
+         <Button>UpdateBooks</Button><br /></Link>
          <br />
-         <Button>DeleteBooks</Button><br />
+         <Link to="/AdminHome/UpdateBooks/DeleteBooks">
+         <Button>DeleteBooks</Button><br /></Link>
          <br />
      </p>
         </div>

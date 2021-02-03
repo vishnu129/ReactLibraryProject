@@ -49,7 +49,7 @@ class UpdatingBooks extends Component {
             <Header />
             <br />
       <div className="card">
-<div style={{background:"lightgreen",height: 50, color: "#fff", display:"flex", justifyContent:"center" }}><h1>UpdatingBooks</h1></div>
+<div style={{background:"lightgreen",height: 70, color: "#fff", display:"flex", justifyContent:"center" }}><h1>UpdatingBooks</h1></div>
 <br />
 <div>
         

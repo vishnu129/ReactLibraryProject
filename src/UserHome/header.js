@@ -45,12 +45,15 @@ function Header(props) {
               />
           </div>
         </div>
-
         <div className="header__right">
-          <HeaderOption Icon={HomeIcon} title="Home" />
-          <HeaderOption Icon={ContactsIcon} title="Contact Us" />
-          <HeaderOption Icon={AccountBalanceIcon} title="Donate" />
-          <HeaderOption Icon={PermIdentityIcon} title={name} />
+        <Link to="/signin/userhome/Home">
+          <HeaderOption Icon={HomeIcon} title="Home" /></Link>
+          <Link to="/signin/userhome/ContactUs">
+          <HeaderOption Icon={ContactsIcon} title="Contact Us" /></Link>
+          <Link to="/signin/userhome/Donate">
+          <HeaderOption Icon={AccountBalanceIcon} title="Donate" /></Link>
+          <Link to="/signin/userhome/profile">
+          <HeaderOption Icon={PermIdentityIcon} title={name} /></Link>
 
         </div>
         {//the side menu 

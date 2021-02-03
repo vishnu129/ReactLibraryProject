@@ -4,7 +4,7 @@ export default class PendingBooks extends Component {
     render() {
         return (
             <div>
-                <Header/>
+                  <Header name="User Name" />
                 <h2>No pending books</h2>
             </div>
         )

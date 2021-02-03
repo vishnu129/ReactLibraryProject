@@ -5,7 +5,7 @@ export default class InvokeMembership extends Component {
     render() {
         return (
             <div>
-                <Header/>
+               <Header name="User Name" />
                 <h2>No Memberships</h2>
             </div>
         )

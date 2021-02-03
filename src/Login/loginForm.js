@@ -30,6 +30,20 @@ function Copyright() {
 }
 function LoginForm(props) {
 
+<<<<<<< HEAD
+}
+const handleChange2=(event)=>{
+  const {value}=event.target;
+  setPassword( 
+    value
+  )
+}
+
+   console.log("password")
+  !props.data?<h2>wrong creditals</h2>:             
+    console.log("asdf")
+  
+=======
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const handleChange1 = (event) => {
@@ -44,6 +58,7 @@ function LoginForm(props) {
     )
 
   }
+>>>>>>> 99c30ec9541518990811cbfff96f787798b3c2f3
 
 
 const auth = () => {
@@ -127,6 +142,9 @@ const auth = () => {
             >
               Sign In
           </Button></Link>
+<<<<<<< HEAD
+          {!props.data && <h3 >Wrong Crenditals</h3>}
+=======
           {!props.data && <h3 style={
             {
               "color": "red",
@@ -134,6 +152,7 @@ const auth = () => {
             }
           }>Wrong Credentials! Please check the username and password</h3>}
 
+>>>>>>> 99c30ec9541518990811cbfff96f787798b3c2f3
           <Grid container>
             <Grid item xs>
               <Link href="#" variant="body2">
