@@ -24,9 +24,15 @@ import signup from '../Signup/Form';
 
 import Userhome from '../UserHome/index'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import Edit from '../Home/Edit';
-import Profile from '../Home/Profile';
-import History from '../Home/History';
+import Edit from '../UserHome/Edit';
+import Profile from '../UserHome/Profile';
+import History from '../UserHome/History';
+import UpdateBooks from '../AdminHome/UpdateBooks';
+import PendingBooks from '../AdminHome/PendingBooks';
+import AddBooks from '../AdminHome/AddBooks';
+import DeleteBooks from '../AdminHome/DeleteBooks';
+import UpdatingBooks from '../AdminHome/UpdatingBooks';
+
 const footerData = data1.footer;
 
 const news = newsData.newsBox;
@@ -69,9 +75,10 @@ const content = data.Content;
 let obj;
 const home = () => (
   <div>
-    <Header />
+    <AddBooks />
+    {/* <Header /> */}
     {/* <Edit /> */}
-    <Quote />
+    {/* <Quote />
     <News news={news} />
     {
       content
@@ -82,7 +89,7 @@ const home = () => (
         )
     
     }
-<Footer />
+<Footer /> */}
   </div>
 );
 
