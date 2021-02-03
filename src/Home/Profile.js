@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-import axios from "axios";
+import axios from "axios";// npm i axios 
 import "./Profile.css";
 import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
