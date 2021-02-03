@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState}from 'react';
 import Header from '../Home/header';
 import News from '../Home/newsBox';
 import Quote from '../Home/quotation';
@@ -19,9 +19,10 @@ import Volunteer from '../Home/Volunteer';
 import volunteerdata from '../Home/Volunteer.json';
 import Contactus from '../ContactUs/CForm';
 import Donate from '../Home/Donate';
-import signin from '../Login/LForm';
+import Signin from '../Login/loginForm';
 import signup from '../Signup/Form';
-import userhome from '../UserHome/index'
+
+import Userhome from '../UserHome/index'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Edit from '../UserHome/Edit';
 import Profile from '../UserHome/Profile';
@@ -35,8 +36,10 @@ import UpdatingBooks from '../AdminHome/UpdatingBooks';
 const footerData = data1.footer;
 
 const news = newsData.newsBox;
-function homeRouter() {
 
+
+function HomeRouter() {
+  const[logged,setLogged]=useState(false);
   return (
     <Router>
       <Switch>
@@ -57,22 +60,24 @@ function homeRouter() {
         <Route exact path="/Contact Us" component={Contactus} />
         <Route exact path="/Contactus" component={Contactus} />
         <Route exact path="/Donate" component={Donate} />
-        <Route exact path="/signin" component={signin} />
+        <Route exact path="/signin" render={() => (<Signin logged={setLogged} data={true}/>)}/>
+
         <Route exact path="/Membership" component={signup} />
-        <Route exact path="/signin/userhome" component={userhome} />
+        <Route exact path="/signin/userhome" render={() => logged ? <Userhome />:(<Signin logged={setLogged} data={false} />)}/>
         
         
       </Switch>
     </Router>
   )
+  
 }
 const content = data.Content;
 let obj;
 const home = () => (
   <div>
-    
-    <br/>
-    <UpdatingBooks />
+    <AddBooks />
+    {/* <Header /> */}
+    {/* <Edit /> */}
     {/* <Quote />
     <News news={news} />
     {
@@ -81,19 +86,11 @@ const home = () => (
           obj = childObj[Object.keys(childObj)]
           return <SuggestionBox genre={obj} />
         }
-        ) */}
+        )
     
-   
-    {/* {
-      footerData.map(obj => {
-        console.log(obj.title);
-        return <Footer data={obj} />
-      })
-
-    } */} 
-<br />
-
+    }
+<Footer /> */}
   </div>
 );
 
-export default homeRouter
+export default HomeRouter
