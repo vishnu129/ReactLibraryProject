@@ -14,9 +14,9 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import { useState } from 'react';
+
+
 function Copyright() {
-
-
   return (
     <Typography variant="body2" color="textSecondary" align="center">
       {'Copyright © '}
@@ -28,22 +28,9 @@ function Copyright() {
     </Typography>
   );
 }
-function LoginForm(props) {
 
-<<<<<<< HEAD
-}
-const handleChange2=(event)=>{
-  const {value}=event.target;
-  setPassword( 
-    value
-  )
-}
-
-   console.log("password")
-  !props.data?<h2>wrong creditals</h2>:             
-    console.log("asdf")
-  
-=======
+function LoginForm(props) 
+{
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const handleChange1 = (event) => {
@@ -58,7 +45,6 @@ const handleChange2=(event)=>{
     )
 
   }
->>>>>>> 99c30ec9541518990811cbfff96f787798b3c2f3
 
 
 const auth = () => {
@@ -142,9 +128,6 @@ const auth = () => {
             >
               Sign In
           </Button></Link>
-<<<<<<< HEAD
-          {!props.data && <h3 >Wrong Crenditals</h3>}
-=======
           {!props.data && <h3 style={
             {
               "color": "red",
@@ -152,7 +135,6 @@ const auth = () => {
             }
           }>Wrong Credentials! Please check the username and password</h3>}
 
->>>>>>> 99c30ec9541518990811cbfff96f787798b3c2f3
           <Grid container>
             <Grid item xs>
               <Link href="#" variant="body2">
