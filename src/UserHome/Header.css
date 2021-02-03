@@ -89,6 +89,9 @@
     background: none;
   }
   
+  .closeIcon{
+    margin-left:10rem;
+  }
   .nav-menu {
     background-color: rgb(108, 206, 125);;
     width: 300px;

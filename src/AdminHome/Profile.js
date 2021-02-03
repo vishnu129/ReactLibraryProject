@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { Link } from 'react-router-dom';
 import axios from "axios";// npm i axios 
 import "./Profile.css";
 import Toolbar from "@material-ui/core/Toolbar";

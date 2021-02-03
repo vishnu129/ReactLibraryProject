@@ -15,7 +15,7 @@ import CardContent from "@material-ui/core/CardContent";
 import { Avatar } from "@material-ui/core";
 import BookmarkBorderIcon from "@material-ui/icons/BookmarkBorder";
 import Pagination from "@material-ui/lab/Pagination";
-
+// npm i @material-ui/lab
 const Styles = makeStyles((theme) => ({
   appBar: {
     backgroundColor: "#fff",

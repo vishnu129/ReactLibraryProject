@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Header from '../Home/header';
 import News from '../Home/newsBox';
-import Quote from '../Home/quotation';
+import Quote from '../Home/Quotation';
 import SuggestionBox from '../Home/suggestionBox';
 import Footer from '../Home/footer';
 import data from '../Home/body.json';
@@ -13,6 +13,7 @@ import Vision from '../Home/Vision';
 import visiondata from '../Home/Vision.json';
 import Volunteer from '../Home/Volunteer';
 import volunteerdata from '../Home/Volunteer.json';
+import careerdata from '../Home/Career.json';
 import Contactus from '../ContactUs/CForm';
 import Donate from '../Home/Donate';
 import Signin from '../Login/loginForm';
@@ -30,7 +31,7 @@ function HomeRouter() {
         <Route exact path="/Vision" render={() => (<Vision data={visiondata} />)} />
         <Route exact path="/Volunteer" render={() => (<Volunteer data={volunteerdata} />)} />
         <Route exact path="/Blogs" render={() => (<Blogs data={blogdata} />)} />
-        <Route exact path="/Careers" render={() => (<Blogs data={blogdata} />)} />
+        <Route exact path="/Careers" render={() => (<Volunteer data={careerdata} />)} />
         <Route exact path="/Books" component={Books} />
         <Route exact path="/Contact Us" component={Contactus} />
         <Route exact path="/Contactus" component={Contactus} />
