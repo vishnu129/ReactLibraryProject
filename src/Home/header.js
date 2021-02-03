@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Header.css";
 import SearchIcon from "@material-ui/icons/Search";
 import HeaderOption from "./HeaderOption";
@@ -12,6 +12,7 @@ import AccountBalanceIcon from "@material-ui/icons/AccountBalance";
 import PermIdentityIcon from '@material-ui/icons/PermIdentity';
  
 function Header() {
+  const [search, setSearch] = useState("");
   const searchOnChange = (event) => setSearch(event.target.value);
   const searchSubmit = () => console.log("searching for "+search);
   return (
